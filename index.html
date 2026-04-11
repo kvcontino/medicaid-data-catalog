@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CMS Medicaid Public Data Catalog</title>
-<meta name="description" content="Searchable, annotated index of federal Medicaid datasets, currently limited to Medicaid Budget and Expenditure System (MBES).">
+<title>Medicaid Public Data Catalog</title>
+<meta name="description" content="Searchable, annotated index of Medicaid public datasets, currently limited to Medicaid Budget and Expenditure System (MBES) datasets.">
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Spectral:wght@300;400;600&family=JetBrains+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Source+Sans+3:wght@300;400;600&family=JetBrains+Mono:wght@400;500&display=swap');
 
 :root {
   --bg: #000;
@@ -15,30 +15,30 @@
   --bg-input: #0e0e0e;
   --border: #2a2a2a;
   --border-focus: #cd9575;
-  --text: #ccc;
-  --text-muted: #777;
-  --text-bright: #ddd;
+  --text: #e8e4e0;
+  --text-muted: #b0a89e;
+  --text-bright: #fff;
   --accent: #cd9575;
   --accent-dim: rgba(205,149,117,0.15);
-  --cat-enrollment: #cd9575;
-  --cat-eligibility: #a89080;
-  --cat-expenditures: #8faa8f;
-  --cat-drug: #c4a55a;
-  --cat-quality: #b88a9a;
-  --cat-managed: #7aaa9a;
-  --cat-service: #c49060;
-  --cat-maternal: #c47878;
-  --cat-unwinding: #7a9ab8;
-  --cat-other: #777;
+  --cat-enrollment: #dba88a;
+  --cat-eligibility: #c4a898;
+  --cat-expenditures: #a8c4a0;
+  --cat-drug: #d4bb70;
+  --cat-quality: #cca0ac;
+  --cat-managed: #90c4b4;
+  --cat-service: #d4a878;
+  --cat-maternal: #d49090;
+  --cat-unwinding: #90b4d0;
+  --cat-other: #b0a89e;
 }
 
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
   background: var(--bg);
   color: var(--text);
-  font-family: 'Spectral', serif;
-  font-size: 18px;
-  line-height: 1.7em;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
   min-height: 100vh;
 }
 
@@ -50,7 +50,7 @@ body {
 
 header {
   margin-bottom: 2.5rem;
-  border-bottom: 1px solid #8c8c8c;
+  border-bottom: 1px solid #3a3a3a;
   padding-bottom: 1.5rem;
 }
 header h1 {
@@ -72,11 +72,11 @@ header .source-link {
   margin-top: 0.25rem;
 }
 header .source-link a {
-  color: var(--text);
+  color: var(--accent);
   text-decoration: none;
 }
-header .source-link a:hover { color: var(--accent); }
-header .source-link a:visited { color: #cd9575; }
+header .source-link a:hover { text-decoration: underline; }
+header .source-link a:visited { color: var(--accent); }
 
 .controls {
   display: flex;
@@ -98,14 +98,14 @@ header .source-link a:visited { color: #cd9575; }
   padding: 0.6rem 1rem 0.6rem 2.5rem;
   border-radius: 0;
   font-size: 16px;
-  font-family: 'Spectral', serif;
+  font-family: 'Source Sans 3', sans-serif;
   transition: border-color 0.15s;
 }
 .search-box input:focus {
   outline: none;
   border-color: var(--border-focus);
 }
-.search-box input::placeholder { color: #555; }
+.search-box input::placeholder { color: #706860; }
 .search-box svg {
   position: absolute;
   left: 0.75rem;
@@ -121,7 +121,7 @@ header .source-link a:visited { color: #cd9575; }
   padding: 0.6rem 0.75rem;
   border-radius: 0;
   font-size: 14px;
-  font-family: 'Spectral', serif;
+  font-family: 'Source Sans 3', sans-serif;
   cursor: pointer;
 }
 
@@ -144,7 +144,7 @@ header .source-link a:visited { color: #cd9575; }
   padding: 0.25rem 0.65rem;
   border-radius: 0;
   font-size: 13px;
-  font-family: 'Spectral', serif;
+  font-family: 'Source Sans 3', sans-serif;
   cursor: pointer;
   transition: all 0.15s;
   white-space: nowrap;
@@ -169,7 +169,7 @@ header .source-link a:visited { color: #cd9575; }
   cursor: pointer;
   transition: background 0.12s, border-color 0.12s;
 }
-.card:hover { background: var(--bg-card-hover); border-color: #444; }
+.card:hover { background: var(--bg-card-hover); border-color: var(--text-muted); }
 .card.expanded { border-color: var(--accent); }
 
 .card-header {
@@ -244,14 +244,14 @@ header .source-link a:visited { color: #cd9575; }
   word-break: break-all;
 }
 .detail-value a {
-  color: var(--text);
+  color: var(--accent);
   text-decoration: none;
 }
-.detail-value a:hover { color: var(--accent); }
+.detail-value a:hover { text-decoration: underline; }
 .detail-value a:visited { color: var(--accent); }
 .detail-value code {
   font-size: 13px;
-  color: #aaa;
+  color: var(--text-muted);
 }
 
 .description {
@@ -273,7 +273,7 @@ header .source-link a:visited { color: #cd9575; }
 .rel-item {
   font-size: 0.85rem;
   padding: 0.35rem 0;
-  border-bottom: 1px solid #1a1a1a;
+  border-bottom: 1px solid var(--border);
 }
 .rel-item:last-child { border-bottom: none; }
 .rel-title {
@@ -359,7 +359,7 @@ async function loadCatalog() {
     handleHash();
   } catch (e) {
     document.getElementById('cards').innerHTML =
-      '<div class="empty">Failed to load catalog.</div>';
+      '<div class="empty">Failed to load catalog. Check that catalog_classified.json is in the same directory.</div>';
   }
 }
 
