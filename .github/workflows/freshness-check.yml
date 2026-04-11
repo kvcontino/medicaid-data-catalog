@@ -22,15 +22,15 @@ jobs:
 
       - name: Run incremental update
         run: |
-          python catalog_clean.py /tmp/mbes-catalog-live.json \
-            --existing medicaid-catalog/catalog_classified.json \
-            -o medicaid-catalog/catalog_classified.json
+          python scripts/catalog_clean.py /tmp/mbes-catalog-live.json \
+            --existing mbes-catalog/catalog_classified.json \
+            -o mbes-catalog/catalog_classified.json
 
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add medicaid-catalog/catalog_classified.json
+          git add mbes-catalog/catalog_classified.json
           git diff --cached --quiet && echo "No changes" && exit 0
           git commit -m "chore: catalog freshness check $(date +%Y-%m-%d)"
           git push
