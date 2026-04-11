@@ -23,14 +23,14 @@ jobs:
       - name: Run incremental update
         run: |
           python scripts/catalog_clean.py /tmp/mbes-catalog-live.json \
-            --existing mbes-catalog/catalog_classified.json \
-            -o mbes-catalog/catalog_classified.json
+            --existing catalog_classified.json \
+            -o catalog_classified.json
 
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add mbes-catalog/catalog_classified.json
+          git add catalog_classified.json
           git diff --cached --quiet && echo "No changes" && exit 0
           git commit -m "chore: catalog freshness check $(date +%Y-%m-%d)"
           git push
