@@ -2,7 +2,7 @@ name: Catalog Freshness Check
 
 on:
   schedule:
-    - cron: '0 9 1 * *'  # 1st of each month at 9am UTC
+    - cron: '0 9 1 * *'
   workflow_dispatch:
 
 jobs:
@@ -17,139 +17,20 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Fetch live catalog and compare
+      - name: Fetch live catalog
+        run: curl -sL https://data.medicaid.gov/data.json -o /tmp/mbes-catalog-live.json
+
+      - name: Run incremental update
         run: |
-          python3 << 'PYEOF'
-          import json
-          import urllib.request
-          from datetime import datetime, timezone
-
-          LIVE_URL = "https://data.medicaid.gov/data.json"
-          LOCAL_PATH = "catalog_classified.json"
-          OUTPUT_PATH = "freshness.json"
-
-          # Fetch live catalog
-          print("Fetching live catalog...")
-          with urllib.request.urlopen(LIVE_URL) as resp:
-            live_raw = json.loads(resp.read())
-
-          # Handle both array and {"dataset": [...]} formats
-          if isinstance(live_raw, list):
-              live_entries = live_raw
-          elif isinstance(live_raw, dict) and 'dataset' in live_raw:
-              live_entries = live_raw['dataset']
-          else:
-              live_entries = live_raw
-
-          live_by_id = {e.get('identifier',''): e for e in live_entries}
-
-          # Load local classified catalog
-          with open(LOCAL_PATH) as f:
-              local = json.load(f)
-          local_by_id = {e['identifier']: e for e in local}
-
-          now = datetime.now(timezone.utc).isoformat()
-
-          updated = []
-          new_datasets = []
-          removed = []
-
-          # Check for updated or removed datasets
-          for uid, entry in local_by_id.items():
-              live = live_by_id.get(uid)
-              if not live:
-                  removed.append({
-                      "identifier": uid,
-                      "title": entry['title'],
-                      "category": entry['category'],
-                  })
-              else:
-                  live_mod = live.get('modified', '')
-                  local_mod = entry.get('modified', '')
-                  if live_mod and local_mod and live_mod != local_mod:
-                      # Check for updated download URLs
-                      live_dists = live.get('distribution', [])
-                      live_url = live_dists[0].get('downloadURL', '') if live_dists else ''
-                      updated.append({
-                          "identifier": uid,
-                          "title": entry['title'],
-                          "category": entry['category'],
-                          "local_modified": local_mod,
-                          "live_modified": live_mod,
-                          "new_download_url": live_url,
-                      })
-
-          # Check for new datasets not in local catalog (and not obvious noise)
-          import re
-          NOISE_PATTERNS = [
-              r'^(prodAuto_|devAuto_|featAuto_|implAuto_)',
-              r'^[Ss]corecard',
-              r'^CoreS[Ee]t\s',
-              r'^Product Data for Newly Reported Drugs.*\d{4}',
-              r'^(Monthly Enrollment - Test|Test UTF)',
-          ]
-          for uid, live in live_by_id.items():
-              if uid not in local_by_id:
-                  title = live.get('title', '')
-                  if any(re.match(p, title) for p in NOISE_PATTERNS):
-                      continue
-                  if title == 'category_tiles':
-                      continue
-                  dists = live.get('distribution', [])
-                  url = dists[0].get('downloadURL', '') if dists else ''
-                  new_datasets.append({
-                      "identifier": uid,
-                      "title": title,
-                      "description": live.get('description', '')[:200],
-                      "modified": live.get('modified', ''),
-                      "download_url": url,
-                      "theme": live.get('theme', []),
-                  })
-
-          report = {
-              "checked_at": now,
-              "summary": {
-                  "tracked": len(local),
-                  "updated": len(updated),
-                  "new": len(new_datasets),
-                  "removed": len(removed),
-              },
-              "updated": updated,
-              "new_datasets": new_datasets,
-              "removed": removed,
-          }
-
-          with open(OUTPUT_PATH, 'w') as f:
-              json.dump(report, f, indent=2)
-
-          print(f"Tracked: {len(local)}")
-          print(f"Updated: {len(updated)}")
-          print(f"New (non-noise): {len(new_datasets)}")
-          print(f"Removed: {len(removed)}")
-
-          # Also update download URLs in local catalog if changed
-          changes_made = False
-          for u in updated:
-              if u['new_download_url']:
-                  entry = local_by_id[u['identifier']]
-                  if entry['download_url'] != u['new_download_url']:
-                      entry['download_url'] = u['new_download_url']
-                      changes_made = True
-                  entry['modified'] = u['live_modified']
-                  changes_made = True
-
-          if changes_made:
-              local.sort(key=lambda x: (x['category'], x['title']))
-              with open(LOCAL_PATH, 'w') as f:
-                  json.dump(local, f, indent=2)
-              print("Updated local catalog with new URLs/dates")
-          PYEOF
+          python catalog_clean.py /tmp/mbes-catalog-live.json \
+            --existing medicaid-catalog/catalog_classified.json \
+            -o medicaid-catalog/catalog_classified.json
 
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add freshness.json catalog_classified.json
+          git add medicaid-catalog/catalog_classified.json
           git diff --cached --quiet && echo "No changes" && exit 0
           git commit -m "chore: catalog freshness check $(date +%Y-%m-%d)"
           git push
