@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CMS Medicaid Public Data Catalog</title>
+<meta name="description" content="Searchable, annotated index of CMS Medicaid public datasets from data.medicaid.gov">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Source+Sans+3:wght@300;400;600;700&display=swap');
+
+:root {
+  --bg: #0c0e13;
+  --bg-card: #14171e;
+  --bg-card-hover: #1a1e28;
+  --bg-input: #1a1e28;
+  --border: #2a2f3e;
+  --border-focus: #4a6fa5;
+  --text: #c8cdd8;
+  --text-muted: #6b7280;
+  --text-bright: #e8ecf4;
+  --accent: #4a9eff;
+  --accent-dim: #2a5f9e;
+  --cat-enrollment: #4a9eff;
+  --cat-eligibility: #a78bfa;
+  --cat-expenditures: #34d399;
+  --cat-drug: #fbbf24;
+  --cat-quality: #f472b6;
+  --cat-managed: #2dd4bf;
+  --cat-service: #fb923c;
+  --cat-maternal: #f87171;
+  --cat-unwinding: #38bdf8;
+  --cat-other: #6b7280;
+}
+
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Source Sans 3', sans-serif;
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+.container { max-width: 1100px; margin: 0 auto; padding: 2rem 1.5rem; }
+
+header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1.5rem;
+}
+header h1 {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-bright);
+  letter-spacing: -0.02em;
+}
+header p {
+  color: var(--text-muted);
+  margin-top: 0.35rem;
+  font-size: 0.95rem;
+}
+header .source-link {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  margin-top: 0.25rem;
+}
+header .source-link a {
+  color: var(--accent);
+  text-decoration: none;
+}
+header .source-link a:hover { text-decoration: underline; }
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+  align-items: center;
+}
+
+.search-box {
+  flex: 1 1 300px;
+  position: relative;
+}
+.search-box input {
+  width: 100%;
+  background: var(--bg-input);
+  border: 1px solid var(--border);
+  color: var(--text-bright);
+  padding: 0.65rem 1rem 0.65rem 2.5rem;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-family: inherit;
+  transition: border-color 0.15s;
+}
+.search-box input:focus {
+  outline: none;
+  border-color: var(--border-focus);
+}
+.search-box svg {
+  position: absolute;
+  left: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-muted);
+}
+
+.sort-select {
+  background: var(--bg-input);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 0.65rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.result-count {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1.75rem;
+}
+.cat-btn {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  padding: 0.3rem 0.7rem;
+  border-radius: 99px;
+  font-size: 0.8rem;
+  font-family: 'JetBrains Mono', monospace;
+  cursor: pointer;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+.cat-btn:hover { border-color: var(--text); color: var(--text); }
+.cat-btn.active {
+  background: var(--accent-dim);
+  border-color: var(--accent);
+  color: var(--text-bright);
+}
+.cat-btn .count {
+  opacity: 0.6;
+  margin-left: 0.25rem;
+}
+
+.cards { display: flex; flex-direction: column; gap: 0.5rem; }
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  cursor: pointer;
+  transition: background 0.12s, border-color 0.12s;
+}
+.card:hover { background: var(--bg-card-hover); border-color: var(--border-focus); }
+.card.expanded { border-color: var(--accent-dim); }
+
+.card-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  justify-content: space-between;
+}
+.card-title {
+  font-weight: 600;
+  color: var(--text-bright);
+  font-size: 1rem;
+  line-height: 1.35;
+  flex: 1;
+}
+
+.badges {
+  display: flex;
+  gap: 0.4rem;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.badge {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  white-space: nowrap;
+  font-weight: 500;
+}
+.badge-cat {
+  background: color-mix(in srgb, var(--cat-color) 15%, transparent);
+  color: var(--cat-color);
+  border: 1px solid color-mix(in srgb, var(--cat-color) 30%, transparent);
+}
+.badge-cadence {
+  background: color-mix(in srgb, var(--text-muted) 12%, transparent);
+  color: var(--text-muted);
+}
+
+.card-notes {
+  margin-top: 0.5rem;
+  color: var(--text);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.card-detail {
+  display: none;
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border);
+}
+.card.expanded .card-detail { display: block; }
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.25rem 1rem;
+  font-size: 0.85rem;
+  margin-bottom: 0.75rem;
+}
+.detail-label {
+  color: var(--text-muted);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.8rem;
+}
+.detail-value {
+  color: var(--text);
+  word-break: break-all;
+}
+.detail-value a {
+  color: var(--accent);
+  text-decoration: none;
+}
+.detail-value a:hover { text-decoration: underline; }
+
+.description {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+  line-height: 1.5;
+}
+
+.relationships { margin-top: 0.75rem; }
+.relationships h4 {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: 0.35rem;
+}
+.rel-item {
+  font-size: 0.85rem;
+  padding: 0.35rem 0;
+  border-bottom: 1px solid color-mix(in srgb, var(--border) 50%, transparent);
+}
+.rel-item:last-child { border-bottom: none; }
+.rel-title {
+  color: var(--accent);
+  cursor: pointer;
+  text-decoration: none;
+}
+.rel-title:hover { text-decoration: underline; }
+.rel-meta {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
+.loading, .empty {
+  text-align: center;
+  padding: 3rem;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+@media (max-width: 640px) {
+  .container { padding: 1rem; }
+  .card-header { flex-direction: column; gap: 0.4rem; }
+  .badges { justify-content: flex-start; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>medicaid-data-catalog</h1>
+    <p id="subtitle">Loading catalog...</p>
+    <div class="source-link">Source: <a href="https://data.medicaid.gov" target="_blank">data.medicaid.gov</a> &#183; <a href="./catalog_classified.json" target="_blank">Raw JSON</a></div>
+  </header>
+
+  <div class="controls">
+    <div class="search-box">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      <input type="text" id="search" placeholder="Search datasets, keywords, descriptions..." autocomplete="off">
+    </div>
+    <select class="sort-select" id="sort">
+      <option value="category">Sort: Category</option>
+      <option value="modified">Sort: Last Modified</option>
+      <option value="title">Sort: Title</option>
+    </select>
+    <span class="result-count" id="count"></span>
+  </div>
+
+  <div class="categories" id="categories"></div>
+  <div class="cards" id="cards"><div class="loading">Loading catalog&hellip;</div></div>
+</div>
+
+<script>
+const CAT_ORDER = ["Enrollment", "Eligibility & Enrollment Policy", "Expenditures", "Drug Pricing & Utilization", "Quality Measures", "Managed Care Programs", "Service Utilization", "Maternal & Child Health", "Unwinding", "Other"];
+const CAT_COLORS = {
+  'Enrollment': 'var(--cat-enrollment)',
+  'Eligibility & Enrollment Policy': 'var(--cat-eligibility)',
+  'Expenditures': 'var(--cat-expenditures)',
+  'Drug Pricing & Utilization': 'var(--cat-drug)',
+  'Quality Measures': 'var(--cat-quality)',
+  'Managed Care Programs': 'var(--cat-managed)',
+  'Service Utilization': 'var(--cat-service)',
+  'Maternal & Child Health': 'var(--cat-maternal)',
+  'Unwinding': 'var(--cat-unwinding)',
+  'Other': 'var(--cat-other)',
+};
+
+let CATALOG = [];
+let activeCategory = null;
+let searchQuery = '';
+let sortBy = 'category';
+
+async function loadCatalog() {
+  try {
+    const resp = await fetch('./catalog_classified.json');
+    CATALOG = await resp.json();
+    document.getElementById('subtitle').textContent =
+      CATALOG.length + ' datasets from data.medicaid.gov \u2014 filtered, classified, and annotated';
+    buildCategories();
+    bindControls();
+    render();
+    handleHash();
+  } catch (e) {
+    document.getElementById('cards').innerHTML =
+      '<div class="empty">Failed to load catalog. Check that catalog_classified.json is in the same directory.</div>';
+  }
+}
+
+function bindControls() {
+  document.getElementById('search').addEventListener('input', e => {
+    searchQuery = e.target.value.toLowerCase();
+    render();
+  });
+  document.getElementById('sort').addEventListener('change', e => {
+    sortBy = e.target.value;
+    render();
+  });
+  window.addEventListener('hashchange', handleHash);
+}
+
+function handleHash() {
+  const uuid = location.hash.replace('#','');
+  if (uuid) scrollToDataset(uuid);
+}
+
+function buildCategories() {
+  const cats = {};
+  CATALOG.forEach(d => { cats[d.category] = (cats[d.category]||0) + 1; });
+  const el = document.getElementById('categories');
+  el.innerHTML = '';
+
+  const allBtn = document.createElement('button');
+  allBtn.className = 'cat-btn active';
+  allBtn.dataset.cat = '';
+  allBtn.innerHTML = 'All <span class="count">' + CATALOG.length + '</span>';
+  allBtn.onclick = () => { activeCategory = null; updateCatBtns(); render(); };
+  el.appendChild(allBtn);
+
+  CAT_ORDER.forEach(cat => {
+    if (!cats[cat]) return;
+    const btn = document.createElement('button');
+    btn.className = 'cat-btn';
+    btn.dataset.cat = cat;
+    btn.innerHTML = cat + ' <span class="count">' + cats[cat] + '</span>';
+    btn.onclick = () => {
+      activeCategory = activeCategory === cat ? null : cat;
+      updateCatBtns();
+      render();
+    };
+    el.appendChild(btn);
+  });
+}
+
+function updateCatBtns() {
+  document.querySelectorAll('.cat-btn').forEach(b => {
+    b.classList.toggle('active', activeCategory ? b.dataset.cat === activeCategory : b.dataset.cat === '');
+  });
+}
+
+function esc(s) {
+  const d = document.createElement('div');
+  d.textContent = s;
+  return d.innerHTML;
+}
+
+function getFiltered() {
+  let items = CATALOG;
+  if (activeCategory) items = items.filter(d => d.category === activeCategory);
+  if (searchQuery) {
+    items = items.filter(d => {
+      const haystack = (d.title + ' ' + d.description + ' ' + d.notes + ' ' + d.keywords.join(' ')).toLowerCase();
+      return searchQuery.split(/\s+/).every(term => haystack.includes(term));
+    });
+  }
+  if (sortBy === 'modified') items = [...items].sort((a,b) => b.modified.localeCompare(a.modified));
+  else if (sortBy === 'title') items = [...items].sort((a,b) => a.title.localeCompare(b.title));
+  return items;
+}
+
+function scrollToDataset(uuid) {
+  activeCategory = null;
+  searchQuery = '';
+  document.getElementById('search').value = '';
+  updateCatBtns();
+  render();
+  requestAnimationFrame(() => {
+    const c = document.querySelector('[data-uuid="'+uuid+'"]');
+    if (c) {
+      c.classList.add('expanded');
+      c.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  });
+}
+
+function render() {
+  const items = getFiltered();
+  document.getElementById('count').textContent = items.length + ' datasets';
+  const el = document.getElementById('cards');
+
+  if (!items.length) {
+    el.innerHTML = '<div class="empty">No datasets match your search.</div>';
+    return;
+  }
+
+  el.innerHTML = items.map(d => {
+    const catColor = CAT_COLORS[d.category] || 'var(--cat-other)';
+    const modified = d.modified ? d.modified.split('T')[0] : '\u2014';
+    const relHtml = d.relationships.length ? '<div class="relationships"><h4>Related Datasets</h4>' +
+      d.relationships.map(r =>
+        '<div class="rel-item"><span class="rel-title" onclick="event.stopPropagation();location.hash=\''+r.target_uuid+'\';scrollToDataset(\''+r.target_uuid+'\')">'+esc(r.target_title)+'</span><br><span class="rel-meta">Join: '+esc(r.join_key)+' \u00b7 '+esc(r.analysis)+'</span></div>'
+      ).join('') + '</div>' : '';
+
+    return '<div class="card" data-uuid="'+d.identifier+'" onclick="this.classList.toggle(\'expanded\')">' +
+      '<div class="card-header"><div class="card-title">'+esc(d.title)+'</div>' +
+      '<div class="badges"><span class="badge badge-cat" style="--cat-color:'+catColor+'">'+esc(d.category)+'</span>' +
+      '<span class="badge badge-cadence">'+esc(d.cadence)+'</span></div></div>' +
+      (d.notes ? '<div class="card-notes">'+esc(d.notes)+'</div>' : '') +
+      '<div class="card-detail"><div class="detail-grid">' +
+      '<span class="detail-label">UUID</span><span class="detail-value"><code>'+d.identifier+'</code></span>' +
+      '<span class="detail-label">Modified</span><span class="detail-value">'+modified+'</span>' +
+      '<span class="detail-label">Format</span><span class="detail-value">'+esc(d.format)+'</span>' +
+      (d.download_url ? '<span class="detail-label">Download</span><span class="detail-value"><a href="'+d.download_url+'" target="_blank">'+esc(d.download_url.split('/').pop())+'</a></span>' : '') +
+      '<span class="detail-label">Dataset Page</span><span class="detail-value"><a href="https://data.medicaid.gov/dataset/'+d.identifier+'" target="_blank">data.medicaid.gov</a></span>' +
+      '</div>' +
+      '<div class="description">'+esc(d.description)+'</div>' +
+      relHtml +
+      '</div></div>';
+  }).join('');
+}
+
+loadCatalog();
+</script>
+</body>
+</html>
