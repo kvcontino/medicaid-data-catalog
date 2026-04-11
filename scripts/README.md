@@ -1,0 +1,3 @@
+Fresh build (no --existing): same as before, classifies everything from scratch.
+Incremental update (--existing): for each dataset in the new dump, update machine-derived fields (description, modified date, download URL, cadence, keywords) but preserves your notes, relationships, and category. If the classifier disagrees with your category assignment, it flags the conflict in stderr but keeps yours. Datasets that disappear from the source get flagged with _removed_from_source: true rather than silently dropped.
+Dry run (--dry-run): prints the diff report without writing anything. Shows new datasets needing notes, category conflicts, and removals.
