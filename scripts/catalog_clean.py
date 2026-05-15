@@ -186,6 +186,8 @@ def main():
     stats = Counter()
 
     for raw in raw_data:
+        if not isinstance(raw, dict):
+            continue
         title = raw.get('title', '')
         uid = raw.get('identifier', '')
 
