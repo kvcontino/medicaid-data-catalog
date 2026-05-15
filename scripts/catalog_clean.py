@@ -187,6 +187,7 @@ def main():
 
     for raw in raw_data:
         if not isinstance(raw, dict):
+            print(f"Skipped non-dict entry: {raw!r}", file=sys.stderr)
             continue
         title = raw.get('title', '')
         uid = raw.get('identifier', '')
