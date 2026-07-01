@@ -5,8 +5,8 @@
     "description": "Affordable Care Act Federal Upper Limits (FUL) based on the weighted average of the most recently reported monthly average manufacturer price (AMP) for pharmaceutically and therapeutically equivalent multiple source drug products that are available for purchase by retail community pharmacies on a nationwide basis.",
     "category": "Drug Pricing & Utilization",
     "cadence": "Unknown",
-    "modified": "2026-04-28T19:19:00+00:00",
-    "download_url": "https://download.medicaid.gov/data/aca-federal-upper-limits-04282026.csv",
+    "modified": "2026-06-30T18:44:00+00:00",
+    "download_url": "https://download.medicaid.gov/data/aca-federal-upper-limits-06302026.csv",
     "format": "csv",
     "keywords": [
       "ful",
@@ -155,8 +155,8 @@
     "description": "The tables below display new National Average Drug Acquisition Cost (NADAC) rates, sorted by Drug Product and Date. The drug products listed have not had a NADAC rate in the past.",
     "category": "Drug Pricing & Utilization",
     "cadence": "Unknown",
-    "modified": "2026-04-29T15:25:00+00:00",
-    "download_url": "https://download.medicaid.gov/data/first-time-nadac-rates-04292026.csv",
+    "modified": "2026-06-24T12:54:01+00:00",
+    "download_url": "https://download.medicaid.gov/data/NADAC_First_Time_062026.csv",
     "format": "csv",
     "keywords": [
       "drug acquisition cost",
@@ -185,29 +185,6 @@
     ],
     "notes": "State-level contacts for the MDRP. Administrative reference.",
     "relationships": []
-  },
-  {
-    "title": "NADAC",
-    "identifier": "c5bd69ae-7c98-4787-beb6-cb347ebf329f",
-    "description": "test",
-    "category": "Drug Pricing & Utilization",
-    "cadence": "Unknown",
-    "modified": "2022-04-05T18:51:24+00:00",
-    "download_url": "https://download.medicaid.gov/data/national-average-drug-acquisition-cost-04-06-2022.csv",
-    "format": "csv",
-    "keywords": [
-      "medicaid"
-    ],
-    "theme": [],
-    "notes": "Current cumulative National Average Drug Acquisition Cost file. Pharmacy invoice-based pricing benchmark. Compare with SDUD reimbursement amounts to identify over/under-payment.",
-    "relationships": [
-      {
-        "target_uuid": "f7162680-b174-48b4-b3e3-3f0f735264ab",
-        "target_title": "SDUD",
-        "join_key": "NDC",
-        "analysis": "Drug acquisition cost vs. Medicaid reimbursement spread"
-      }
-    ]
   },
   {
     "title": "NADAC (National Average Drug Acquisition Cost) 2013",
@@ -475,8 +452,8 @@
     "description": "National Average Drug Acquisition Cost (NADAC) weekly reference data for the calendar year.",
     "category": "Drug Pricing & Utilization",
     "cadence": "Unknown",
-    "modified": "2026-05-19T18:30:00+00:00",
-    "download_url": "https://download.medicaid.gov/data/nadac-national-average-drug-acquisition-cost-052026.csv",
+    "modified": "2026-06-30T11:50:00+00:00",
+    "download_url": "https://download.medicaid.gov/data/nadac-national-average-drug-acquisition-cost-07-01-2026.csv",
     "format": "csv",
     "keywords": [
       "nadac",
@@ -495,8 +472,8 @@
     "description": "The NADAC Weekly Comparison identifies the drug products with current NADAC rates that are replaced with new NADAC rates.  Other changes (e.g. NDC additions and terminations) to the NADAC file are not reflected in this comparison.\n\nNote: Effective Date was not recorded in the dataset until 6/7/2017",
     "category": "Drug Pricing & Utilization",
     "cadence": "Unknown",
-    "modified": "2026-05-19T21:00:00+00:00",
-    "download_url": "https://download.medicaid.gov/data/nadac-comparison-05202026.csv",
+    "modified": "2026-06-30T12:05:00+00:00",
+    "download_url": "https://download.medicaid.gov/data/nadac-comparison-07-01-2026.csv",
     "format": "csv",
     "keywords": [
       "nadac comparison",
@@ -1634,8 +1611,8 @@
     "description": "All states (including the District of Columbia) provide data to the Centers for Medicare &amp; Medicaid Services (CMS) on a range of Medicaid and Children\u2019s Health Insurance Program (CHIP) eligibility and enrollment metrics. These data reflect state-reported information on Medicaid and CHIP eligibility renewals initiated and scheduled for completion during the reporting period. In addition to reporting the outcomes of renewals at the end of each reporting period, states also provide an update on renewals that were reported pending as of the end of a reporting period. For more information on these data, see Sections II and III of the <a href=\"https://www.medicaid.gov/resources-for-states/downloads/eligibility-processing-data-specs-august-2024.pdf\">Eligibility Processing Data Report specifications</a>. <br />\n<b>Notes:</b><br /> Georgia reported data for individuals who continue to be eligible following a change in circumstances and were granted a new 12-month eligibility period during the reporting period, along with data on individuals due for renewal in the month.<br />\nNorth Carolina reports renewal outcomes for only initiated renewals scheduled for completion in the report month, and as such, the data do not reflect renewals that should have been completed in the reporting period that the state was unable to initiate by the end of the report month.",
     "category": "Eligibility & Enrollment Policy",
     "cadence": "Monthly",
-    "modified": "2026-04-24T15:49:00+00:00",
-    "download_url": "https://download.medicaid.gov/data/renewal-dataset-april-2026-release.csv",
+    "modified": "2026-06-26T18:00:00+00:00",
+    "download_url": "https://download.medicaid.gov/data/renewal-dataset-june-2026-release.csv",
     "format": "csv",
     "keywords": [
       "medicaid",
@@ -1850,8 +1827,8 @@
     "description": "This dataset includes total enrollment in separate CHIP (S-CHIP) programs by month and state from April 2023 forward.\n<p><b>Sources:</b> T-MSIS Analytic Files (TAF) and state-submitted enrollment totals. The data notes indicate when a state\u2019s monthly total was a state-submitted value, rather than from T-MSIS.<br />\n<b>Methods:</b> Enrollment includes individuals enrolled in S-CHIP at any point during the coverage month, excluding those enrolled in dental-only coverage. The S-CHIP enrollment in this report also excludes enrollees covered by Medicaid expansion CHIP, a program in which a state receives federal funding to expand Medicaid eligibility to optional targeted low-income children that meets the requirements of section 2103 of the Social Security Act.  If an individual is enrolled in both Medicaid or Medicaid-expansion CHIP and S-CHIP in a given month, TAF picks the program in which they were last enrolled.<br />\nUnless S-CHIP enrollment counts are replaced with a state-submitted value, each state's monthly S-CHIP enrollment is equal to the number of unique people in TAF with a CHIP_CODE = 3 (S-CHIP) and ELGBLTY_GRP_CD not equal to \u201866\u2019 (Children Eligible for Dental Only Supplemental Coverage). More information about TAF is available at <a href=\"https://www.medicaid.gov/medicaid/data-systems/macbis/medicaid-chip-research-files/transformed-medicaid-statistical-information-system-t-msis-analytic-files-taf/index.html\">https://www.medicaid.gov/medicaid/data-systems/macbis/medicaid-chip-research-files/transformed-medicaid-statistical-information-system-t-msis-analytic-files-taf/index.html</a>. </p>\t\n<b>Note:</b> A historic dataset with S-CHIP enrollment by month and state from April 2023 to June 2024 is also available at: <a href=\"https://data.medicaid.gov/dataset/d30cfc7c-4b32-4df1-b2bf-e0a850befd77\">https://data.medicaid.gov/dataset/d30cfc7c-4b32-4df1-b2bf-e0a850befd77</a>. This historic dataset was created to fulfill reporting requirements under section 1902(tt)(1) of the Social Security Act, which was added by section 5131(b) of subtitle D of title V of division FF of the Consolidated Appropriations Act, 2023 (P.L. 117-328) (CAA, 2023). Please note that the methods used to count S-CHIP enrollees differ slightly between the two datasets; as a result, data users should exercise caution if comparing S-CHIP enrollment across the two datasets.<br />\n<b>State notes:</b>\n    Alaska, District of Columbia, Hawaii, New Hampshire, New Mexico, North Carolina, North Dakota, Ohio, South Carolina, Vermont, and Wyoming do not have S-CHIP programs.<br />\n    Maryland has an S-CHIP program for the from conception to end of pregnancy group that began in July 2023; April 2023 - June 2023 data for Maryland represents retroactive coverage.<br />\n   Oregon moved all its S-CHIP enrollees, other than those in the from conception to the end of pregnancy group, to a Medicaid-expansion CHIP program effective January 1, 2024.<br />\nCHIP: Children's Health Insurance Program",
     "category": "Enrollment",
     "cadence": "Quarterly",
-    "modified": "2026-03-27T15:43:00+00:00",
-    "download_url": "https://download.medicaid.gov/data/current-chip-caa-reporting-metrics-march-2026-release.csv",
+    "modified": "2026-06-26T18:00:00+00:00",
+    "download_url": "https://download.medicaid.gov/data/current-chip-caa-reporting-metrics-june-2026-release.csv",
     "format": "csv",
     "keywords": [
       "child enrollment",
@@ -1897,8 +1874,8 @@
     "description": "All states (including the District of Columbia) are required to provide data to The Centers for Medicare &amp; Medicaid Services (CMS) on a range of Medicaid and Children\u2019s Health Insurance Program (CHIP) indicators related to key application, eligibility, enrollment and call center processes. These data reflect enrollment activity for all populations receiving comprehensive Medicaid and CHIP benefits in all states, as well as state program performance.<br />\nStates submit this data via the Performance Indicator dataset. Further information about this dataset is available at:  <a href=\"https://www.medicaid.gov/medicaid/national-medicaid-chip-program-information/medicaid-chip-enrollment-data/performance-indicator-technical-assistance/index.html\">https://www.medicaid.gov/medicaid/national-medicaid-chip-program-information/medicaid-chip-enrollment-data/performance-indicator-technical-assistance/index.html</a>.",
     "category": "Enrollment",
     "cadence": "Monthly",
-    "modified": "2026-04-24T15:47:00+00:00",
-    "download_url": "https://download.medicaid.gov/data/pi-dataset-april-2026-release.csv",
+    "modified": "2026-06-26T18:00:00+00:00",
+    "download_url": "https://download.medicaid.gov/data/pi-dataset-june-2026-release.csv",
     "format": "csv",
     "keywords": [
       "child enrollment",
@@ -1937,11 +1914,11 @@
   {
     "title": "MLR Summary Reports",
     "identifier": "743f9f04-4473-41e2-9da2-9a89db65ee55",
-    "description": "The MLR Summary Reports provide plan-specific MLRs for Medicaid managed care programs. The MLR summary report data include MLRs for MCOs, PIHPs, and PAHPs submitted by states under 42 CFR \u00a7 438.74.",
+    "description": "The MLR Summary Reports provide plan-specific MLRs for Medicaid managed care programs. The MLR summary report data include MLRs for MCOs, PIHPs, and PAHPs submitted by states under 42 CFR \u00a7 438.74.\n\nPlan-specific data include: \n\u2022\tPlan name\n\u2022\tReporting period start and end dates\n\u2022\tReport Year\n\u2022\tMLR numerator\n\u2022\tMLR denominator\n\u2022\tMember months\n\u2022\tAdjusted MLR\n\u2022\tRemittance amount owed by plan\n\nThe report also provides: \n\u2022\tState \n\u2022\tProgram name \n\u2022\tProgram type \n\u2022\tEligibility group (if applicable)",
     "category": "Expenditures",
     "cadence": "Unknown",
-    "modified": "2025-12-16T16:53:00+00:00",
-    "download_url": "https://download.medicaid.gov/data/mlr-public-use-file-UPDATED12162025.csv",
+    "modified": "2026-06-26T18:40:00+00:00",
+    "download_url": "https://download.medicaid.gov/data/mlr-public-use-file-updated06262026.csv",
     "format": "csv",
     "keywords": [
       "medicaid"
@@ -2677,8 +2654,8 @@
     "description": "Test",
     "category": "Other",
     "cadence": "Unknown",
-    "modified": "2026-05-18T20:29:30+00:00",
-    "download_url": "https://download.medicaid.gov/data/pi-dataset-may-2026-release.csv",
+    "modified": "2026-06-26T16:00:00+00:00",
+    "download_url": "https://download.medicaid.gov/data/pi-dataset-june-2026-release.csv",
     "format": "csv",
     "keywords": [
       "medicaid"
@@ -3437,6 +3414,30 @@
     ],
     "notes": "Same as HealthCare.gov unwinding report but for state-based marketplace states.",
     "relationships": []
+  },
+  {
+    "title": "NADAC",
+    "identifier": "c5bd69ae-7c98-4787-beb6-cb347ebf329f",
+    "description": "test",
+    "category": "Drug Pricing & Utilization",
+    "cadence": "Unknown",
+    "modified": "2022-04-05T18:51:24+00:00",
+    "download_url": "https://download.medicaid.gov/data/national-average-drug-acquisition-cost-04-06-2022.csv",
+    "format": "csv",
+    "keywords": [
+      "medicaid"
+    ],
+    "theme": [],
+    "notes": "Current cumulative National Average Drug Acquisition Cost file. Pharmacy invoice-based pricing benchmark. Compare with SDUD reimbursement amounts to identify over/under-payment.",
+    "relationships": [
+      {
+        "target_uuid": "f7162680-b174-48b4-b3e3-3f0f735264ab",
+        "target_title": "SDUD",
+        "join_key": "NDC",
+        "analysis": "Drug acquisition cost vs. Medicaid reimbursement spread"
+      }
+    ],
+    "_removed_from_source": true
   },
   {
     "title": "Medicaid Enterprise System Datatable",
