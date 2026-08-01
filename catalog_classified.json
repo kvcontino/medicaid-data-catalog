@@ -5,8 +5,8 @@
     "description": "Affordable Care Act Federal Upper Limits (FUL) based on the weighted average of the most recently reported monthly average manufacturer price (AMP) for pharmaceutically and therapeutically equivalent multiple source drug products that are available for purchase by retail community pharmacies on a nationwide basis.",
     "category": "Drug Pricing & Utilization",
     "cadence": "Unknown",
-    "modified": "2026-06-30T18:44:00+00:00",
-    "download_url": "https://download.medicaid.gov/data/aca-federal-upper-limits-06302026.csv",
+    "modified": "2026-07-29T14:18:00+00:00",
+    "download_url": "https://download.medicaid.gov/data/aca-federal-upper-limits-072026.csv",
     "format": "csv",
     "keywords": [
       "ful",
@@ -155,8 +155,8 @@
     "description": "The tables below display new National Average Drug Acquisition Cost (NADAC) rates, sorted by Drug Product and Date. The drug products listed have not had a NADAC rate in the past.",
     "category": "Drug Pricing & Utilization",
     "cadence": "Unknown",
-    "modified": "2026-06-24T12:54:01+00:00",
-    "download_url": "https://download.medicaid.gov/data/NADAC_First_Time_062026.csv",
+    "modified": "2026-07-23T14:58:01+00:00",
+    "download_url": "https://download.medicaid.gov/data/NADAC_First_Time_07232026.csv",
     "format": "csv",
     "keywords": [
       "drug acquisition cost",
@@ -452,8 +452,8 @@
     "description": "National Average Drug Acquisition Cost (NADAC) weekly reference data for the calendar year.",
     "category": "Drug Pricing & Utilization",
     "cadence": "Unknown",
-    "modified": "2026-06-30T11:50:00+00:00",
-    "download_url": "https://download.medicaid.gov/data/nadac-national-average-drug-acquisition-cost-07-01-2026.csv",
+    "modified": "2026-07-28T11:08:01+00:00",
+    "download_url": "https://download.medicaid.gov/data/nadac-national-average-drug-acquisition-cost-07-29-2026.csv",
     "format": "csv",
     "keywords": [
       "nadac",
@@ -472,8 +472,8 @@
     "description": "The NADAC Weekly Comparison identifies the drug products with current NADAC rates that are replaced with new NADAC rates.  Other changes (e.g. NDC additions and terminations) to the NADAC file are not reflected in this comparison.\n\nNote: Effective Date was not recorded in the dataset until 6/7/2017",
     "category": "Drug Pricing & Utilization",
     "cadence": "Unknown",
-    "modified": "2026-06-30T12:05:00+00:00",
-    "download_url": "https://download.medicaid.gov/data/nadac-comparison-07-01-2026.csv",
+    "modified": "2026-07-28T11:13:01+00:00",
+    "download_url": "https://download.medicaid.gov/data/nadac-comparison-07-29-2026.csv",
     "format": "csv",
     "keywords": [
       "nadac comparison",
@@ -519,6 +519,24 @@
       "Drug Pricing and Payment"
     ],
     "notes": "Semi-annual pricing comparison for clotting factors and related hemophilia treatments across pricing benchmarks.",
+    "relationships": []
+  },
+  {
+    "title": "Pricing Comparison for Blood Disorder Treatments (Pricing as of 06/1/2026)",
+    "identifier": "190326eb-878c-4aaf-ae2b-1082bf34ff70",
+    "description": "The Reference Document link for the downloadable Blood Disorder Treatment Spreadsheet can be accessed below under the Additional Information table under Related Documents.",
+    "category": "Drug Pricing & Utilization",
+    "cadence": "Unknown",
+    "modified": "2026-07-01T17:53:00+00:00",
+    "download_url": "https://download.medicaid.gov/data/Clotting-Factor-June2026.csv",
+    "format": "csv",
+    "keywords": [
+      "drug products"
+    ],
+    "theme": [
+      "Drug Pricing and Payment"
+    ],
+    "notes": "",
     "relationships": []
   },
   {
@@ -1281,8 +1299,8 @@
     "description": "Drug utilization data are reported by states for covered outpatient drugs that are paid for by state Medicaid agencies since the start of the Medicaid Drug Rebate Program. The data includes state, drug name, National Drug Code, number of prescriptions and dollars reimbursed. Data descriptions are available on Medicaid.gov: https://www.medicaid.gov/medicaid/prescription-drugs/state-drug-utilization-data/state-drug-utilization-data-faq/index.html",
     "category": "Drug Pricing & Utilization",
     "cadence": "Unknown",
-    "modified": "2026-05-01T14:15:50+00:00",
-    "download_url": "https://download.medicaid.gov/data/sdud-2020-updated-05012026.csv",
+    "modified": "2026-07-13T16:16:50+00:00",
+    "download_url": "https://download.medicaid.gov/data/sdud2020_updatedJuly2026.csv",
     "format": "csv",
     "keywords": [
       "medicaid reimbursements",
@@ -1301,8 +1319,8 @@
     "description": "Drug utilization data are reported by states for covered outpatient drugs that are paid for by state Medicaid agencies since the start of the Medicaid Drug Rebate Program. The data includes state, drug name, National Drug Code, number of prescriptions and dollars reimbursed. Data descriptions are available on Medicaid.gov: https://www.medicaid.gov/medicaid/prescription-drugs/state-drug-utilization-data/state-drug-utilization-data-faq",
     "category": "Drug Pricing & Utilization",
     "cadence": "Unknown",
-    "modified": "2026-04-22T16:33:19+00:00",
-    "download_url": "https://download.medicaid.gov/data/sdud-2021-updated.csv",
+    "modified": "2026-07-13T16:12:19+00:00",
+    "download_url": "https://download.medicaid.gov/data/sdud2021_updatedJuly2026.csv",
     "format": "csv",
     "keywords": [
       "medicaid reimbursements",
@@ -1321,8 +1339,8 @@
     "description": "Drug utilization data are reported by states for covered outpatient drugs that are paid for by state Medicaid agencies since the start of the Medicaid Drug Rebate Program. The data includes state, drug name, National Drug Code, number of prescriptions and dollars reimbursed. Data descriptions are available on Medicaid.gov: https://www.medicaid.gov/medicaid/prescription-drugs/state-drug-utilization-data/state-drug-utilization-data-faq",
     "category": "Drug Pricing & Utilization",
     "cadence": "Unknown",
-    "modified": "2026-04-22T12:11:01+00:00",
-    "download_url": "https://download.medicaid.gov/data/sdud-2022-updated.csv",
+    "modified": "2026-07-13T15:54:01+00:00",
+    "download_url": "https://download.medicaid.gov/data/sdud2022_updatedJuly2026.csv",
     "format": "csv",
     "keywords": [
       "medicaid reimbursements",
@@ -1341,8 +1359,8 @@
     "description": "Drug utilization data are reported by states for covered outpatient drugs that are paid for by state Medicaid agencies since the start of the Medicaid Drug Rebate Program. The data includes state, drug name, National Drug Code, number of prescriptions and dollars reimbursed. Data descriptions are available on Medicaid.gov: https://www.medicaid.gov/medicaid/prescription-drugs/state-drug-utilization-data/state-drug-utilization-data-faq",
     "category": "Drug Pricing & Utilization",
     "cadence": "Unknown",
-    "modified": "2026-04-22T12:43:41+00:00",
-    "download_url": "https://download.medicaid.gov/data/sdud-2023-updated.csv",
+    "modified": "2026-07-13T15:43:41+00:00",
+    "download_url": "https://download.medicaid.gov/data/sdud2023_updatedJuly2026.csv",
     "format": "csv",
     "keywords": [
       "medicaid reimbursements",
@@ -1361,8 +1379,8 @@
     "description": "Drug utilization data are reported by states for covered outpatient drugs that are paid for by state Medicaid agencies since the start of the Medicaid Drug Rebate Program. The data includes state, drug name, National Drug Code, number of prescriptions and dollars reimbursed. Data descriptions are available on Medicaid.gov: https://www.medicaid.gov/medicaid/prescription-drugs/state-drug-utilization-data/state-drug-utilization-data-faq/index.html",
     "category": "Drug Pricing & Utilization",
     "cadence": "Unknown",
-    "modified": "2026-04-22T13:11:28+00:00",
-    "download_url": "https://download.medicaid.gov/data/sdud-2024-updated.csv",
+    "modified": "2026-07-13T15:37:28+00:00",
+    "download_url": "https://download.medicaid.gov/data/sdud2024_updatedJuly2026.csv",
     "format": "csv",
     "keywords": [
       "pharmacy",
@@ -1381,8 +1399,8 @@
     "description": "Drug utilization data are reported by states for covered outpatient drugs that are paid for by state Medicaid agencies since the start of the Medicaid Drug Rebate Program. The data includes state, drug name, National Drug Code, number of prescriptions and dollars reimbursed. Data descriptions are available on Medicaid.gov: https://www.medicaid.gov/medicaid/prescription-drugs/state-drug-utilization-data/state-drug-utilization-data-faq",
     "category": "Drug Pricing & Utilization",
     "cadence": "Unknown",
-    "modified": "2026-04-22T13:56:32+00:00",
-    "download_url": "https://download.medicaid.gov/data/sdud-2025-updated.csv",
+    "modified": "2026-07-13T15:28:32+00:00",
+    "download_url": "https://download.medicaid.gov/data/sdud2025_updatedjuly2026.csv",
     "format": "csv",
     "keywords": [
       "pharmacy",
@@ -1393,6 +1411,26 @@
       "State Drug Utilization"
     ],
     "notes": "Annual SDUD file. State-level Rx utilization by NDC for this calendar year. Part of the longitudinal SDUD series.",
+    "relationships": []
+  },
+  {
+    "title": "State Drug Utilization Data 2026",
+    "identifier": "2957a7f9-9a15-453e-9afd-3bbdcbac8fd3",
+    "description": "Drug utilization data are reported by states for covered outpatient drugs that are paid for by state Medicaid agencies since the start of the Medicaid Drug Rebate Program. The data includes state, drug name, National Drug Code, number of prescriptions and dollars reimbursed. Data descriptions are available on Medicaid.gov: https://www.medicaid.gov/medicaid/prescription-drugs/state-drug-utilization-data/state-drug-utilization-data-faq/index.html",
+    "category": "Drug Pricing & Utilization",
+    "cadence": "Decennial",
+    "modified": "2026-07-10T21:08:05+00:00",
+    "download_url": "https://download.medicaid.gov/data/sdud2026_updated072026.csv",
+    "format": "csv",
+    "keywords": [
+      "pharmacy",
+      "medicaid reimbursements",
+      "drug utilization"
+    ],
+    "theme": [
+      "State Drug Utilization"
+    ],
+    "notes": "",
     "relationships": []
   },
   {
@@ -1611,8 +1649,8 @@
     "description": "All states (including the District of Columbia) provide data to the Centers for Medicare &amp; Medicaid Services (CMS) on a range of Medicaid and Children\u2019s Health Insurance Program (CHIP) eligibility and enrollment metrics. These data reflect state-reported information on Medicaid and CHIP eligibility renewals initiated and scheduled for completion during the reporting period. In addition to reporting the outcomes of renewals at the end of each reporting period, states also provide an update on renewals that were reported pending as of the end of a reporting period. For more information on these data, see Sections II and III of the <a href=\"https://www.medicaid.gov/resources-for-states/downloads/eligibility-processing-data-specs-august-2024.pdf\">Eligibility Processing Data Report specifications</a>. <br />\n<b>Notes:</b><br /> Georgia reported data for individuals who continue to be eligible following a change in circumstances and were granted a new 12-month eligibility period during the reporting period, along with data on individuals due for renewal in the month.<br />\nNorth Carolina reports renewal outcomes for only initiated renewals scheduled for completion in the report month, and as such, the data do not reflect renewals that should have been completed in the reporting period that the state was unable to initiate by the end of the report month.",
     "category": "Eligibility & Enrollment Policy",
     "cadence": "Monthly",
-    "modified": "2026-06-26T18:00:00+00:00",
-    "download_url": "https://download.medicaid.gov/data/renewal-dataset-june-2026-release.csv",
+    "modified": "2026-07-31T18:00:00+00:00",
+    "download_url": "https://download.medicaid.gov/data/renewal-dataset-july-2026-release.csv",
     "format": "csv",
     "keywords": [
       "medicaid",
@@ -1874,8 +1912,8 @@
     "description": "All states (including the District of Columbia) are required to provide data to The Centers for Medicare &amp; Medicaid Services (CMS) on a range of Medicaid and Children\u2019s Health Insurance Program (CHIP) indicators related to key application, eligibility, enrollment and call center processes. These data reflect enrollment activity for all populations receiving comprehensive Medicaid and CHIP benefits in all states, as well as state program performance.<br />\nStates submit this data via the Performance Indicator dataset. Further information about this dataset is available at:  <a href=\"https://www.medicaid.gov/medicaid/national-medicaid-chip-program-information/medicaid-chip-enrollment-data/performance-indicator-technical-assistance/index.html\">https://www.medicaid.gov/medicaid/national-medicaid-chip-program-information/medicaid-chip-enrollment-data/performance-indicator-technical-assistance/index.html</a>.",
     "category": "Enrollment",
     "cadence": "Monthly",
-    "modified": "2026-06-26T18:00:00+00:00",
-    "download_url": "https://download.medicaid.gov/data/pi-dataset-june-2026-release.csv",
+    "modified": "2026-07-31T18:00:00+00:00",
+    "download_url": "https://download.medicaid.gov/data/pi-dataset-july-2026-release.csv",
     "format": "csv",
     "keywords": [
       "child enrollment",
@@ -2651,11 +2689,11 @@
   {
     "title": "State Medicaid and CHIP- Map",
     "identifier": "84922793-8c53-4e1a-8e4d-edf6d5e8bb3b",
-    "description": "Test",
+    "description": "Staging ",
     "category": "Other",
     "cadence": "Unknown",
-    "modified": "2026-06-26T16:00:00+00:00",
-    "download_url": "https://download.medicaid.gov/data/pi-dataset-june-2026-release.csv",
+    "modified": "2026-07-31T16:00:00+00:00",
+    "download_url": "https://download.medicaid.gov/data/pi-dataset-july-2026-release.csv",
     "format": "csv",
     "keywords": [
       "medicaid"
@@ -2898,6 +2936,26 @@
       "Quality"
     ],
     "notes": "Annual child and adult core set quality measure results by state. Covers preventive care, chronic disease management, and behavioral health measures.",
+    "relationships": []
+  },
+  {
+    "title": "2025 Child and Adult Health Care Quality Measures Quality",
+    "identifier": "14bc26c3-5584-4032-9175-f3a0399cb206",
+    "description": "Performance rates on publicly reported health care quality measures in the CMS Medicaid/CHIP Child and Adult Core Sets, for 2025 reporting.",
+    "category": "Quality Measures",
+    "cadence": "Unknown",
+    "modified": "2026-07-16T04:00:00+00:00",
+    "download_url": "https://download.medicaid.gov/data/mdrp-newly-rprt-drug-07-06-2026-to-07-12-2026.csv",
+    "format": "unknown",
+    "keywords": [
+      "performance rates",
+      "core sets",
+      "quality measures"
+    ],
+    "theme": [
+      "Quality"
+    ],
+    "notes": "",
     "relationships": []
   },
   {
