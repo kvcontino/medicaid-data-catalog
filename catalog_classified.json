@@ -5,13 +5,12 @@
     "description": "Affordable Care Act Federal Upper Limits (FUL) based on the weighted average of the most recently reported monthly average manufacturer price (AMP) for pharmaceutically and therapeutically equivalent multiple source drug products that are available for purchase by retail community pharmacies on a nationwide basis.",
     "category": "Drug Pricing & Utilization",
     "cadence": "Unknown",
-    "modified": "2026-07-29T14:18:00+00:00",
-    "download_url": "https://download.medicaid.gov/data/aca-federal-upper-limits-072026.csv",
+    "modified": "2026-08-04T14:18:00+00:00",
+    "download_url": "https://download.medicaid.gov/data/aca-federal-upper-limits-07292026.csv",
     "format": "csv",
     "keywords": [
-      "ful",
-      "federal upper limits",
-      "amp"
+      "Average Manufacturer Price (AMP)",
+      "Federal Upper Limits (FUL)"
     ],
     "theme": [
       "Drug Pricing and Payment"
@@ -25,11 +24,11 @@
     "description": "Clotting Factor (CF) designation allows for a minimum rebate percentage of 17.1 percent of Average Manufacturer Price (AMP) for single source and innovator multiple source drugs.  ",
     "category": "Drug Pricing & Utilization",
     "cadence": "Unknown",
-    "modified": "2026-05-07T19:24:00+00:00",
-    "download_url": "https://download.medicaid.gov/data/cf-drug-report-05072026.csv",
+    "modified": "2026-08-10T23:04:00+00:00",
+    "download_url": "https://download.medicaid.gov/data/cf-drug-report-08092026.2.csv",
     "format": "csv",
     "keywords": [
-      "drug rebate program"
+      "Drug Rebate Program"
     ],
     "theme": [],
     "notes": "Pricing for clotting factor products, which are carved out of standard rebate calculations.",
@@ -45,7 +44,7 @@
     "download_url": "https://download.medicaid.gov/data/division-of-pharmacy-releases-07242025.csv",
     "format": "csv",
     "keywords": [
-      "pharmacy"
+      "Pharmacy"
     ],
     "theme": [],
     "notes": "Index of CMS pharmacy-related data releases. Meta-dataset pointing to individual release files.",
@@ -57,12 +56,11 @@
     "description": "Drugs that have been reported under the Medicaid Drug Rebate Program along with an indication of whether or not the required Average Manufacturer Price (AMP) was reported for each drug. All drugs are identified in the file by the 11-digit National Drug Code, product name, labeler name, and reported (R) or not reported (NR).",
     "category": "Drug Pricing & Utilization",
     "cadence": "Unknown",
-    "modified": "2026-04-17T15:26:00+00:00",
-    "download_url": "https://download.medicaid.gov/data/DrugAMPReportingMonthly022026.csv",
+    "modified": "2026-08-13T19:19:00+00:00",
+    "download_url": "https://download.medicaid.gov/data/DrugAMPReportingMonthly062026.csv",
     "format": "csv",
     "keywords": [
-      "average manufacturer price",
-      "amp"
+      "Average Manufacturer Price (AMP)"
     ],
     "theme": [
       "Drug Pricing and Payment"
@@ -76,12 +74,11 @@
     "description": "Drugs that have been reported under the Medicaid Drug Rebate Program along with an indication of whether or not the required Average Manufacturer Price (AMP) was reported for each drug. All drugs are identified in the file by the 11-digit National Drug Code, product name, labeler name, and reported (R) or not reported (NR).",
     "category": "Drug Pricing & Utilization",
     "cadence": "Unknown",
-    "modified": "2026-05-08T19:00:00+00:00",
-    "download_url": "https://download.medicaid.gov/data/DrugAMPReportingQuarterly1Q2026.csv",
+    "modified": "2026-08-14T17:04:00+00:00",
+    "download_url": "https://download.medicaid.gov/data/DrugAMPReportingQuarterly-2q2026.csv",
     "format": "csv",
     "keywords": [
-      "average manufacturer price",
-      "amp"
+      "Average Manufacturer Price (AMP)"
     ],
     "theme": [
       "Drug Pricing and Payment"
@@ -95,11 +92,11 @@
     "description": "Drug Manufacturer Contact Information contains Optional Effective Date, Termination Date (if applicable), and Legal, Invoice and Technical Contact information for each drug company participating in the Medicaid Drug Rebate Program. For more information see: https://www.medicaid.gov/medicaid/prescription-drugs/medicaid-drug-rebate-program/index.html",
     "category": "Drug Pricing & Utilization",
     "cadence": "Unknown",
-    "modified": "2026-05-07T17:40:00+00:00",
-    "download_url": "https://download.medicaid.gov/data/1Q2026-LabelerContacts.csv",
+    "modified": "2026-08-13T17:21:00+00:00",
+    "download_url": "https://download.medicaid.gov/data/2q2026-labeler-contacts.csv",
     "format": "csv",
     "keywords": [
-      "drug manufacturer contacts"
+      "Drug Manufacturer Contacts"
     ],
     "theme": [
       "Uncategorized"
@@ -113,12 +110,11 @@
     "description": "Active drugs that have been reported by participating drug manufacturers under the Medicaid Drug Rebate Program. All drugs are identified by National Drug Code (NDC), unit type, units per package size, product name, Food and Drug Administration (FDA) approval date, the date the drug entered the market, plus indicators to show whether the drug is an innovator or non-innovator drug; whether it is available by prescription or over-the-counter (OTC); the FDA therapeutic equivalency code; and the Drug Efficacy Study Implementation (DESI) rating and termination date. Each quarter posted represents a snapshot of data in the system at that time and is not updated by subsequent changes.",
     "category": "Drug Pricing & Utilization",
     "cadence": "Unknown",
-    "modified": "2026-05-08T18:23:00+00:00",
-    "download_url": "https://download.medicaid.gov/data/drugproducts1q_2026_05082026.csv",
+    "modified": "2026-08-13T19:54:00+00:00",
+    "download_url": "https://download.medicaid.gov/data/drugproducts-q2-2026.csv",
     "format": "csv",
     "keywords": [
-      "drug products",
-      "drug rebate program"
+      "Drug Rebate Program"
     ],
     "theme": [
       "Drug Pricing and Payment"
@@ -139,11 +135,11 @@
     "description": "Exclusively Pediatric (EP) designation allows for a minimum rebate percentage of 17.1 percent of Average Manufacturer Price (AMP) for single source and innovator multiple source drugs.  ",
     "category": "Drug Pricing & Utilization",
     "cadence": "Unknown",
-    "modified": "2026-05-07T19:40:00+00:00",
-    "download_url": "https://download.medicaid.gov/data/ep-drugs-05072026.csv",
+    "modified": "2026-08-10T23:03:00+00:00",
+    "download_url": "https://download.medicaid.gov/data/ep-drugs-08092026.2.csv",
     "format": "csv",
     "keywords": [
-      "drug rebate program"
+      "Drug Rebate Program"
     ],
     "theme": [],
     "notes": "NDCs with exclusive pediatric indications \u2014 relevant because they get different rebate treatment under the MDRP.",
@@ -155,12 +151,11 @@
     "description": "The tables below display new National Average Drug Acquisition Cost (NADAC) rates, sorted by Drug Product and Date. The drug products listed have not had a NADAC rate in the past.",
     "category": "Drug Pricing & Utilization",
     "cadence": "Unknown",
-    "modified": "2026-07-23T14:58:01+00:00",
-    "download_url": "https://download.medicaid.gov/data/NADAC_First_Time_07232026.csv",
+    "modified": "2026-08-24T14:16:01+00:00",
+    "download_url": "https://download.medicaid.gov/data/first-time-nadac-08242026.csv",
     "format": "csv",
     "keywords": [
-      "drug acquisition cost",
-      "nadac"
+      "National Average Drug Acquisition Cost (NADAC)"
     ],
     "theme": [
       "Drug Pricing and Payment"
@@ -174,11 +169,11 @@
     "description": "Contains each state's policy, rebate and technical contact information for the Medicaid Drug Rebate Program. Updated quarterly.",
     "category": "Drug Pricing & Utilization",
     "cadence": "Unknown",
-    "modified": "2026-05-08T19:03:00+00:00",
-    "download_url": "https://download.medicaid.gov/data/1q2026statecontacts.csv",
+    "modified": "2026-08-13T16:48:00+00:00",
+    "download_url": "https://download.medicaid.gov/data/2Q2026StateContacts.csv",
     "format": "csv",
     "keywords": [
-      "quarterly state contact file"
+      "Quarterly State Contact File"
     ],
     "theme": [
       "Uncategorized"
@@ -196,11 +191,9 @@
     "download_url": "https://download.medicaid.gov/data/nadac-national-average-drug-acquisition-cost.a4y5-998d.1fe73992-cbfd-5109-97bc-dee8b33fdcff.csv",
     "format": "csv",
     "keywords": [
-      "drug acquisition cost",
-      "nadac"
+      "National Average Drug Acquisition Cost (NADAC)"
     ],
     "theme": [
-      "National Average Drug Acquisition Cost",
       "Drug Pricing and Payment"
     ],
     "notes": "Annual NADAC file for this calendar year. Weekly pharmacy acquisition cost surveys aggregated annually.",
@@ -216,11 +209,9 @@
     "download_url": "https://download.medicaid.gov/data/nadac-national-average-drug-acquisition-cost.a4y5-998d.ba0c3734-8012-549a-8f50-2ff389d0e0ef.csv",
     "format": "csv",
     "keywords": [
-      "drug acquisition cost",
-      "nadac"
+      "National Average Drug Acquisition Cost (NADAC)"
     ],
     "theme": [
-      "National Average Drug Acquisition Cost",
       "Drug Pricing and Payment"
     ],
     "notes": "Annual NADAC file for this calendar year. Weekly pharmacy acquisition cost surveys aggregated annually.",
@@ -236,11 +227,9 @@
     "download_url": "https://download.medicaid.gov/data/nadac-national-average-drug-acquisition-cost.a4y5-998d.4d7af295-2132-55a8-b40c-d6630061f3e8.csv",
     "format": "csv",
     "keywords": [
-      "drug acquisition cost",
-      "nadac"
+      "National Average Drug Acquisition Cost (NADAC)"
     ],
     "theme": [
-      "National Average Drug Acquisition Cost",
       "Drug Pricing and Payment"
     ],
     "notes": "Annual NADAC file for this calendar year. Weekly pharmacy acquisition cost surveys aggregated annually.",
@@ -256,11 +245,9 @@
     "download_url": "https://download.medicaid.gov/data/nadac-national-average-drug-acquisition-cost.a4y5-998d.7656fc17-f1b4-566b-9a2d-c4a4f2ac7ae1.csv",
     "format": "csv",
     "keywords": [
-      "drug acquisition cost",
-      "nadac"
+      "National Average Drug Acquisition Cost (NADAC)"
     ],
     "theme": [
-      "National Average Drug Acquisition Cost",
       "Drug Pricing and Payment"
     ],
     "notes": "Annual NADAC file for this calendar year. Weekly pharmacy acquisition cost surveys aggregated annually.",
@@ -276,11 +263,9 @@
     "download_url": "https://download.medicaid.gov/data/nadac-national-average-drug-acquisition-cost.a4y5-998d.1c5d0fc9-693a-534a-8240-4627d9362b0d.csv",
     "format": "csv",
     "keywords": [
-      "drug acquisition cost",
-      "nadac"
+      "National Average Drug Acquisition Cost (NADAC)"
     ],
     "theme": [
-      "National Average Drug Acquisition Cost",
       "Drug Pricing and Payment"
     ],
     "notes": "Annual NADAC file for this calendar year. Weekly pharmacy acquisition cost surveys aggregated annually.",
@@ -296,11 +281,9 @@
     "download_url": "https://download.medicaid.gov/data/nadac-national-average-drug-acquisition-cost.a4y5-998d.8de1b213-73c5-552b-b84e-ac795f34d056.csv",
     "format": "csv",
     "keywords": [
-      "drug acquisition cost",
-      "nadac"
+      "National Average Drug Acquisition Cost (NADAC)"
     ],
     "theme": [
-      "National Average Drug Acquisition Cost",
       "Drug Pricing and Payment"
     ],
     "notes": "Annual NADAC file for this calendar year. Weekly pharmacy acquisition cost surveys aggregated annually.",
@@ -316,11 +299,9 @@
     "download_url": "https://download.medicaid.gov/data/nadac-national-average-drug-acquisition-cost.a4y5-998d.76a1984a-6d69-5e4d-86c8-65eb31f0506d.csv",
     "format": "csv",
     "keywords": [
-      "drug acquisition cost",
-      "nadac"
+      "National Average Drug Acquisition Cost (NADAC)"
     ],
     "theme": [
-      "National Average Drug Acquisition Cost",
       "Drug Pricing and Payment"
     ],
     "notes": "Annual NADAC file for this calendar year. Weekly pharmacy acquisition cost surveys aggregated annually.",
@@ -336,11 +317,9 @@
     "download_url": "https://download.medicaid.gov/data/nadac-national-average-drug-acquisition-cost.a4y5-998d.c933dc16-7de9-52b6-8971-4b75992673e0.csv",
     "format": "csv",
     "keywords": [
-      "drug acquisition cost",
-      "nadac"
+      "National Average Drug Acquisition Cost (NADAC)"
     ],
     "theme": [
-      "National Average Drug Acquisition Cost",
       "Drug Pricing and Payment"
     ],
     "notes": "Annual NADAC file for this calendar year. Weekly pharmacy acquisition cost surveys aggregated annually.",
@@ -356,11 +335,9 @@
     "download_url": "https://download.medicaid.gov/data/national-average-drug-acquisition-cost-12-29-2021.csv",
     "format": "csv",
     "keywords": [
-      "drug acquisition cost",
-      "nadac"
+      "National Average Drug Acquisition Cost (NADAC)"
     ],
     "theme": [
-      "National Average Drug Acquisition Cost",
       "Drug Pricing and Payment"
     ],
     "notes": "Annual NADAC file for this calendar year. Weekly pharmacy acquisition cost surveys aggregated annually.",
@@ -376,11 +353,9 @@
     "download_url": "https://download.medicaid.gov/data/nadac-national-average-drug-acquisition-cost-2022.csv",
     "format": "csv",
     "keywords": [
-      "drug acquisition cost",
-      "nadac"
+      "National Average Drug Acquisition Cost (NADAC)"
     ],
     "theme": [
-      "National Average Drug Acquisition Cost",
       "Drug Pricing and Payment"
     ],
     "notes": "Annual NADAC file for this calendar year. Weekly pharmacy acquisition cost surveys aggregated annually.",
@@ -396,11 +371,9 @@
     "download_url": "https://download.medicaid.gov/data/nadac-national-average-drug-acquisition-cost-12-27-2023.csv",
     "format": "csv",
     "keywords": [
-      "drug acquisition cost",
-      "nadac"
+      "National Average Drug Acquisition Cost (NADAC)"
     ],
     "theme": [
-      "National Average Drug Acquisition Cost",
       "Drug Pricing and Payment"
     ],
     "notes": "Annual NADAC file for this calendar year. Weekly pharmacy acquisition cost surveys aggregated annually.",
@@ -416,11 +389,9 @@
     "download_url": "https://download.medicaid.gov/data/nadac-national-average-drug-acquisition-cost-12-25-2024.csv",
     "format": "csv",
     "keywords": [
-      "drug acquisition cost",
-      "nadac"
+      "National Average Drug Acquisition Cost (NADAC)"
     ],
     "theme": [
-      "National Average Drug Acquisition Cost",
       "Drug Pricing and Payment"
     ],
     "notes": "Annual NADAC file for this calendar year. Weekly pharmacy acquisition cost surveys aggregated annually.",
@@ -436,12 +407,10 @@
     "download_url": "https://download.medicaid.gov/data/nadac-national-average-drug-acquisition-cost-12-31-2025.csv",
     "format": "csv",
     "keywords": [
-      "nadac",
-      "drug acquisition cost"
+      "National Average Drug Acquisition Cost (NADAC)"
     ],
     "theme": [
-      "Drug Pricing and Payment",
-      "National Average Drug Acquisition Cost"
+      "Drug Pricing and Payment"
     ],
     "notes": "Annual NADAC file for this calendar year. Weekly pharmacy acquisition cost surveys aggregated annually.",
     "relationships": []
@@ -452,16 +421,14 @@
     "description": "National Average Drug Acquisition Cost (NADAC) weekly reference data for the calendar year.",
     "category": "Drug Pricing & Utilization",
     "cadence": "Unknown",
-    "modified": "2026-07-28T11:08:01+00:00",
-    "download_url": "https://download.medicaid.gov/data/nadac-national-average-drug-acquisition-cost-07-29-2026.csv",
+    "modified": "2026-08-25T11:42:01+00:00",
+    "download_url": "https://download.medicaid.gov/data/nadac-national-average-drug-acquisition-cost-08-26-2026.csv",
     "format": "csv",
     "keywords": [
-      "nadac",
-      "drug acquisition cost"
+      "National Average Drug Acquisition Cost (NADAC)"
     ],
     "theme": [
-      "Drug Pricing and Payment",
-      "National Average Drug Acquisition Cost"
+      "Drug Pricing and Payment"
     ],
     "notes": "Annual NADAC file for this calendar year. Weekly pharmacy acquisition cost surveys aggregated annually.",
     "relationships": []
@@ -472,12 +439,12 @@
     "description": "The NADAC Weekly Comparison identifies the drug products with current NADAC rates that are replaced with new NADAC rates.  Other changes (e.g. NDC additions and terminations) to the NADAC file are not reflected in this comparison.\n\nNote: Effective Date was not recorded in the dataset until 6/7/2017",
     "category": "Drug Pricing & Utilization",
     "cadence": "Unknown",
-    "modified": "2026-07-28T11:13:01+00:00",
-    "download_url": "https://download.medicaid.gov/data/nadac-comparison-07-29-2026.csv",
+    "modified": "2026-08-25T11:56:01+00:00",
+    "download_url": "https://download.medicaid.gov/data/nadac-comparison-08-26-2026.csv",
     "format": "csv",
     "keywords": [
-      "nadac comparison",
-      "nadac"
+      "National Average Drug Acquisition Cost (NADAC)",
+      "Comparison"
     ],
     "theme": [
       "Drug Pricing and Payment"
@@ -495,7 +462,7 @@
     "download_url": "https://data.medicaid.gov/sites/default/files/uploaded_resources/Clotting-Factor-June2024.csv",
     "format": "csv",
     "keywords": [
-      "drug products"
+      "Drug Products"
     ],
     "theme": [
       "Drug Pricing and Payment"
@@ -513,7 +480,7 @@
     "download_url": "https://download.medicaid.gov/data/Clotting-Factor-June-2025.csv",
     "format": "csv",
     "keywords": [
-      "drug products"
+      "Drug Products"
     ],
     "theme": [
       "Drug Pricing and Payment"
@@ -531,7 +498,7 @@
     "download_url": "https://download.medicaid.gov/data/Clotting-Factor-June2026.csv",
     "format": "csv",
     "keywords": [
-      "drug products"
+      "Drug Products"
     ],
     "theme": [
       "Drug Pricing and Payment"
@@ -549,7 +516,7 @@
     "download_url": "https://data.medicaid.gov/sites/default/files/uploaded_resources/Clotting-Factor-Dec2021.csv",
     "format": "csv",
     "keywords": [
-      "drug products"
+      "Drug Products"
     ],
     "theme": [
       "Drug Pricing and Payment"
@@ -567,7 +534,7 @@
     "download_url": "https://data.medicaid.gov/sites/default/files/uploaded_resources/Clotting-Factor-Dec2022_0.csv",
     "format": "csv",
     "keywords": [
-      "drug products"
+      "Drug Products"
     ],
     "theme": [
       "Drug Pricing and Payment"
@@ -585,7 +552,7 @@
     "download_url": "https://download.medicaid.gov/data/Clotting-Factor-Dec2023.csv",
     "format": "csv",
     "keywords": [
-      "drug products"
+      "Drug Products"
     ],
     "theme": [
       "Drug Pricing and Payment"
@@ -603,7 +570,7 @@
     "download_url": "https://download.medicaid.gov/data/Clotting-Factor-December2024.csv",
     "format": "csv",
     "keywords": [
-      "drug products"
+      "Drug Products"
     ],
     "theme": [
       "Drug Pricing and Payment"
@@ -621,7 +588,7 @@
     "download_url": "https://download.medicaid.gov/data/Clotting-Factor-December-2025.csv",
     "format": "csv",
     "keywords": [
-      "drug products"
+      "Drug Products"
     ],
     "theme": [
       "Drug Pricing and Payment"
@@ -639,7 +606,7 @@
     "download_url": "https://data.medicaid.gov/sites/default/files/uploaded_resources/Clotting-Factor-Jun2022.csv",
     "format": "csv",
     "keywords": [
-      "drug products"
+      "Drug Products"
     ],
     "theme": [
       "Drug Pricing and Payment"
@@ -657,7 +624,7 @@
     "download_url": "https://data.medicaid.gov/sites/default/files/uploaded_resources/Clotting-Factor-Jun-2023.csv",
     "format": "csv",
     "keywords": [
-      "drug products"
+      "Drug Products"
     ],
     "theme": [
       "Drug Pricing and Payment"
@@ -675,8 +642,7 @@
     "download_url": "https://data.medicaid.gov/sites/default/files/uploaded_resources/newly-reported-drugs-october-files.csv",
     "format": "csv",
     "keywords": [
-      "drug rebate program",
-      "drug products"
+      "Drug Rebate Program"
     ],
     "theme": [
       "Drug Pricing and Payment"
@@ -694,7 +660,7 @@
     "download_url": "https://download.medicaid.gov/data/DrugUtilization_merged.csv",
     "format": "csv",
     "keywords": [
-      "medicaid"
+      "Medicaid"
     ],
     "theme": [],
     "notes": "Current cumulative State Drug Utilization Data file. State-level Rx claims by NDC: units reimbursed and Medicaid amount paid. Cross-reference with NADAC for acquisition cost spread analysis.",
@@ -723,9 +689,9 @@
     "download_url": "https://download.medicaid.gov/data/StateDrugUtilizationData-1991.csv",
     "format": "csv",
     "keywords": [
-      "medicaid reimbursements",
-      "drug utilization",
-      "pharmacy"
+      "Medicaid Reimbursements",
+      "Drug Utilization",
+      "Pharmacy"
     ],
     "theme": [
       "State Drug Utilization"
@@ -743,9 +709,9 @@
     "download_url": "https://download.medicaid.gov/data/StateDrugUtilizationData-1992.csv",
     "format": "csv",
     "keywords": [
-      "medicaid reimbursements",
-      "drug utilization",
-      "pharmacy"
+      "Medicaid Reimbursements",
+      "Drug Utilization",
+      "Pharmacy"
     ],
     "theme": [
       "State Drug Utilization"
@@ -763,9 +729,9 @@
     "download_url": "https://download.medicaid.gov/data/StateDrugUtilizationData-1993.csv",
     "format": "csv",
     "keywords": [
-      "medicaid reimbursements",
-      "drug utilization",
-      "pharmacy"
+      "Medicaid Reimbursements",
+      "Drug Utilization",
+      "Pharmacy"
     ],
     "theme": [
       "State Drug Utilization"
@@ -783,9 +749,9 @@
     "download_url": "https://download.medicaid.gov/data/StateDrugUtilizationData-1994.csv",
     "format": "csv",
     "keywords": [
-      "medicaid reimbursements",
-      "drug utilization",
-      "pharmacy"
+      "Medicaid Reimbursements",
+      "Drug Utilization",
+      "Pharmacy"
     ],
     "theme": [
       "State Drug Utilization"
@@ -803,9 +769,9 @@
     "download_url": "https://download.medicaid.gov/data/StateDrugUtilizationData-1995.csv",
     "format": "csv",
     "keywords": [
-      "medicaid reimbursements",
-      "drug utilization",
-      "pharmacy"
+      "Medicaid Reimbursements",
+      "Drug Utilization",
+      "Pharmacy"
     ],
     "theme": [
       "State Drug Utilization"
@@ -823,9 +789,9 @@
     "download_url": "https://download.medicaid.gov/data/StateDrugUtilizationData-1996.csv",
     "format": "csv",
     "keywords": [
-      "medicaid reimbursements",
-      "drug utilization",
-      "pharmacy"
+      "Medicaid Reimbursements",
+      "Drug Utilization",
+      "Pharmacy"
     ],
     "theme": [
       "State Drug Utilization"
@@ -843,9 +809,9 @@
     "download_url": "https://download.medicaid.gov/data/StateDrugUtilizationData-1997.csv",
     "format": "csv",
     "keywords": [
-      "medicaid reimbursements",
-      "drug utilization",
-      "pharmacy"
+      "Medicaid Reimbursements",
+      "Drug Utilization",
+      "Pharmacy"
     ],
     "theme": [
       "State Drug Utilization"
@@ -863,9 +829,9 @@
     "download_url": "https://download.medicaid.gov/data/StateDrugUtilizationData-1998.csv",
     "format": "csv",
     "keywords": [
-      "medicaid reimbursements",
-      "drug utilization",
-      "pharmacy"
+      "Medicaid Reimbursements",
+      "Drug Utilization",
+      "Pharmacy"
     ],
     "theme": [
       "State Drug Utilization"
@@ -883,9 +849,9 @@
     "download_url": "https://download.medicaid.gov/data/StateDrugUtilizationData-1999.csv",
     "format": "csv",
     "keywords": [
-      "medicaid reimbursements",
-      "drug utilization",
-      "pharmacy"
+      "Medicaid Reimbursements",
+      "Drug Utilization",
+      "Pharmacy"
     ],
     "theme": [
       "State Drug Utilization"
@@ -903,9 +869,9 @@
     "download_url": "https://download.medicaid.gov/data/StateDrugUtilizationData-2000.csv",
     "format": "csv",
     "keywords": [
-      "medicaid reimbursements",
-      "drug utilization",
-      "pharmacy"
+      "Medicaid Reimbursements",
+      "Drug Utilization",
+      "Pharmacy"
     ],
     "theme": [
       "State Drug Utilization"
@@ -923,9 +889,9 @@
     "download_url": "https://download.medicaid.gov/data/StateDrugUtilizationData-2001.csv",
     "format": "csv",
     "keywords": [
-      "medicaid reimbursements",
-      "drug utilization",
-      "pharmacy"
+      "Medicaid Reimbursements",
+      "Drug Utilization",
+      "Pharmacy"
     ],
     "theme": [
       "State Drug Utilization"
@@ -943,9 +909,9 @@
     "download_url": "https://download.medicaid.gov/data/StateDrugUtilizationData-2002.csv",
     "format": "csv",
     "keywords": [
-      "medicaid reimbursements",
-      "drug utilization",
-      "pharmacy"
+      "Medicaid Reimbursements",
+      "Drug Utilization",
+      "Pharmacy"
     ],
     "theme": [
       "State Drug Utilization"
@@ -963,9 +929,9 @@
     "download_url": "https://download.medicaid.gov/data/StateDrugUtilizationData-2003.csv",
     "format": "csv",
     "keywords": [
-      "medicaid reimbursements",
-      "drug utilization",
-      "pharmacy"
+      "Medicaid Reimbursements",
+      "Drug Utilization",
+      "Pharmacy"
     ],
     "theme": [
       "State Drug Utilization"
@@ -983,9 +949,9 @@
     "download_url": "https://download.medicaid.gov/data/StateDrugUtilizationData-2004.csv",
     "format": "csv",
     "keywords": [
-      "medicaid reimbursements",
-      "drug utilization",
-      "pharmacy"
+      "Medicaid Reimbursements",
+      "Drug Utilization",
+      "Pharmacy"
     ],
     "theme": [
       "State Drug Utilization"
@@ -1003,9 +969,9 @@
     "download_url": "https://download.medicaid.gov/data/StateDrugUtilizationData-2005.csv",
     "format": "csv",
     "keywords": [
-      "medicaid reimbursements",
-      "drug utilization",
-      "pharmacy"
+      "Medicaid Reimbursements",
+      "Drug Utilization",
+      "Pharmacy"
     ],
     "theme": [
       "State Drug Utilization"
@@ -1023,9 +989,9 @@
     "download_url": "https://download.medicaid.gov/data/StateDrugUtilizationData-2006.csv",
     "format": "csv",
     "keywords": [
-      "medicaid reimbursements",
-      "drug utilization",
-      "pharmacy"
+      "Medicaid Reimbursements",
+      "Drug Utilization",
+      "Pharmacy"
     ],
     "theme": [
       "State Drug Utilization"
@@ -1043,9 +1009,9 @@
     "download_url": "https://download.medicaid.gov/data/StateDrugUtilizationData-2007.csv",
     "format": "csv",
     "keywords": [
-      "medicaid reimbursements",
-      "drug utilization",
-      "pharmacy"
+      "Medicaid Reimbursements",
+      "Drug Utilization",
+      "Pharmacy"
     ],
     "theme": [
       "State Drug Utilization"
@@ -1063,9 +1029,9 @@
     "download_url": "https://download.medicaid.gov/data/StateDrugUtilizationData-2008.csv",
     "format": "csv",
     "keywords": [
-      "medicaid reimbursements",
-      "drug utilization",
-      "pharmacy"
+      "Medicaid Reimbursements",
+      "Drug Utilization",
+      "Pharmacy"
     ],
     "theme": [
       "State Drug Utilization"
@@ -1083,9 +1049,9 @@
     "download_url": "https://download.medicaid.gov/data/StateDrugUtilizationData-2009.csv",
     "format": "csv",
     "keywords": [
-      "medicaid reimbursements",
-      "drug utilization",
-      "pharmacy"
+      "Medicaid Reimbursements",
+      "Drug Utilization",
+      "Pharmacy"
     ],
     "theme": [
       "State Drug Utilization"
@@ -1103,9 +1069,9 @@
     "download_url": "https://download.medicaid.gov/data/StateDrugUtilizationData-2010.csv",
     "format": "csv",
     "keywords": [
-      "medicaid reimbursements",
-      "drug utilization",
-      "pharmacy"
+      "Medicaid Reimbursements",
+      "Drug Utilization",
+      "Pharmacy"
     ],
     "theme": [
       "State Drug Utilization"
@@ -1123,9 +1089,9 @@
     "download_url": "https://download.medicaid.gov/data/StateDrugUtilizationData-2011.csv",
     "format": "csv",
     "keywords": [
-      "medicaid reimbursements",
-      "drug utilization",
-      "pharmacy"
+      "Medicaid Reimbursements",
+      "Drug Utilization",
+      "Pharmacy"
     ],
     "theme": [
       "State Drug Utilization"
@@ -1143,9 +1109,9 @@
     "download_url": "https://download.medicaid.gov/data/StateDrugUtilizationData-2012.csv",
     "format": "csv",
     "keywords": [
-      "medicaid reimbursements",
-      "drug utilization",
-      "pharmacy"
+      "Medicaid Reimbursements",
+      "Drug Utilization",
+      "Pharmacy"
     ],
     "theme": [
       "State Drug Utilization"
@@ -1163,9 +1129,9 @@
     "download_url": "https://download.medicaid.gov/data/StateDrugUtilizationData-2013.csv",
     "format": "csv",
     "keywords": [
-      "medicaid reimbursements",
-      "drug utilization",
-      "pharmacy"
+      "Medicaid Reimbursements",
+      "Drug Utilization",
+      "Pharmacy"
     ],
     "theme": [
       "State Drug Utilization"
@@ -1183,9 +1149,9 @@
     "download_url": "https://download.medicaid.gov/data/StateDrugUtilizationData-2014.csv",
     "format": "csv",
     "keywords": [
-      "medicaid reimbursements",
-      "drug utilization",
-      "pharmacy"
+      "Medicaid Reimbursements",
+      "Drug Utilization",
+      "Pharmacy"
     ],
     "theme": [
       "State Drug Utilization"
@@ -1203,9 +1169,9 @@
     "download_url": "https://download.medicaid.gov/data/StateDrugUtilizationData-2015.csv",
     "format": "csv",
     "keywords": [
-      "medicaid reimbursements",
-      "drug utilization",
-      "pharmacy"
+      "Medicaid Reimbursements",
+      "Drug Utilization",
+      "Pharmacy"
     ],
     "theme": [
       "State Drug Utilization"
@@ -1223,9 +1189,9 @@
     "download_url": "https://download.medicaid.gov/data/StateDrugUtilizationData-2016.csv",
     "format": "csv",
     "keywords": [
-      "medicaid reimbursements",
-      "drug utilization",
-      "pharmacy"
+      "Medicaid Reimbursements",
+      "Drug Utilization",
+      "Pharmacy"
     ],
     "theme": [
       "State Drug Utilization"
@@ -1243,9 +1209,9 @@
     "download_url": "https://download.medicaid.gov/data/StateDrugUtilizationData-2017.csv",
     "format": "csv",
     "keywords": [
-      "medicaid reimbursements",
-      "drug utilization",
-      "pharmacy"
+      "Medicaid Reimbursements",
+      "Drug Utilization",
+      "Pharmacy"
     ],
     "theme": [
       "State Drug Utilization"
@@ -1263,9 +1229,9 @@
     "download_url": "https://download.medicaid.gov/data/StateDrugUtilizationData-2018.csv",
     "format": "csv",
     "keywords": [
-      "medicaid reimbursements",
-      "drug utilization",
-      "pharmacy"
+      "Medicaid Reimbursements",
+      "Drug Utilization",
+      "Pharmacy"
     ],
     "theme": [
       "State Drug Utilization"
@@ -1283,9 +1249,9 @@
     "download_url": "https://download.medicaid.gov/data/StateDrugUtilizationData-2019.csv",
     "format": "csv",
     "keywords": [
-      "medicaid reimbursements",
-      "drug utilization",
-      "pharmacy"
+      "Medicaid Reimbursements",
+      "Drug Utilization",
+      "Pharmacy"
     ],
     "theme": [
       "State Drug Utilization"
@@ -1303,9 +1269,9 @@
     "download_url": "https://download.medicaid.gov/data/sdud2020_updatedJuly2026.csv",
     "format": "csv",
     "keywords": [
-      "medicaid reimbursements",
-      "drug utilization",
-      "pharmacy"
+      "Medicaid Reimbursements",
+      "Drug Utilization",
+      "Pharmacy"
     ],
     "theme": [
       "State Drug Utilization"
@@ -1323,9 +1289,9 @@
     "download_url": "https://download.medicaid.gov/data/sdud2021_updatedJuly2026.csv",
     "format": "csv",
     "keywords": [
-      "medicaid reimbursements",
-      "drug utilization",
-      "pharmacy"
+      "Medicaid Reimbursements",
+      "Drug Utilization",
+      "Pharmacy"
     ],
     "theme": [
       "State Drug Utilization"
@@ -1343,9 +1309,9 @@
     "download_url": "https://download.medicaid.gov/data/sdud2022_updatedJuly2026.csv",
     "format": "csv",
     "keywords": [
-      "medicaid reimbursements",
-      "drug utilization",
-      "pharmacy"
+      "Medicaid Reimbursements",
+      "Drug Utilization",
+      "Pharmacy"
     ],
     "theme": [
       "State Drug Utilization"
@@ -1363,9 +1329,9 @@
     "download_url": "https://download.medicaid.gov/data/sdud2023_updatedJuly2026.csv",
     "format": "csv",
     "keywords": [
-      "medicaid reimbursements",
-      "drug utilization",
-      "pharmacy"
+      "Medicaid Reimbursements",
+      "Drug Utilization",
+      "Pharmacy"
     ],
     "theme": [
       "State Drug Utilization"
@@ -1383,9 +1349,9 @@
     "download_url": "https://download.medicaid.gov/data/sdud2024_updatedJuly2026.csv",
     "format": "csv",
     "keywords": [
-      "pharmacy",
-      "medicaid reimbursements",
-      "drug utilization"
+      "Pharmacy",
+      "Medicaid Reimbursements",
+      "Drug Utilization"
     ],
     "theme": [
       "State Drug Utilization"
@@ -1403,9 +1369,9 @@
     "download_url": "https://download.medicaid.gov/data/sdud2025_updatedjuly2026.csv",
     "format": "csv",
     "keywords": [
-      "pharmacy",
-      "medicaid reimbursements",
-      "drug utilization"
+      "Pharmacy",
+      "Medicaid Reimbursements",
+      "Drug Utilization"
     ],
     "theme": [
       "State Drug Utilization"
@@ -1423,9 +1389,9 @@
     "download_url": "https://download.medicaid.gov/data/sdud2026_updated072026.csv",
     "format": "csv",
     "keywords": [
-      "pharmacy",
-      "medicaid reimbursements",
-      "drug utilization"
+      "Pharmacy",
+      "Medicaid Reimbursements",
+      "Drug Utilization"
     ],
     "theme": [
       "State Drug Utilization"
@@ -1443,11 +1409,11 @@
     "download_url": "https://download.medicaid.gov/data/BenefitPackage-montly.csv",
     "format": "csv",
     "keywords": [
-      "DQ Atlas",
-      "program enrollment",
-      "t-msis analytic files",
-      "chip",
-      "medicaid"
+      "Program Enrollment",
+      "Children's Health Insurance Program (CHIP)",
+      "Medicaid",
+      "T-MSIS Analytic Files (TAF)",
+      "DQ (Data Quality) Atlas"
     ],
     "theme": [
       "Enrollment"
@@ -1469,11 +1435,11 @@
     "download_url": "https://download.medicaid.gov/data/BenefitPackage-anul.csv",
     "format": "csv",
     "keywords": [
-      "DQ Atlas",
-      "program enrollment",
-      "t-msis analytic files",
-      "chip",
-      "medicaid"
+      "Program Enrollment",
+      "Children's Health Insurance Program (CHIP)",
+      "Medicaid",
+      "T-MSIS Analytic Files (TAF)",
+      "DQ (Data Quality) Atlas"
     ],
     "theme": [
       "Enrollment"
@@ -1495,8 +1461,8 @@
     "download_url": "https://download.medicaid.gov/data/continuous-eligibility-for-medicaid-and-chip-coverage.gz34-pjff.csv",
     "format": "csv",
     "keywords": [
-      "continuous eligibility",
-      "enrollment strategies"
+      "Continuous Eligibility",
+      "Enrollment Strategies"
     ],
     "theme": [
       "Eligibility"
@@ -1514,7 +1480,7 @@
     "download_url": "https://download.medicaid.gov/data/express-lane-eligibility-for-medicaid-and-chip-coverage.8vcd-dnq9.csv",
     "format": "csv",
     "keywords": [
-      "enrollment strategies"
+      "Enrollment Strategies"
     ],
     "theme": [
       "Eligibility"
@@ -1532,11 +1498,11 @@
     "download_url": "https://download.medicaid.gov/data/MajorEligibilityGroup-montly-102025.csv",
     "format": "csv",
     "keywords": [
-      "DQ Atlas",
-      "major eligibility group",
-      "t-msis analytic files",
-      "chip",
-      "medicaid"
+      "Major Eligibility Group",
+      "Medicaid",
+      "Children's Health Insurance Program (CHIP)",
+      "T-MSIS Analytic Files (TAF)",
+      "DQ (Data Quality) Atlas"
     ],
     "theme": [
       "Enrollment"
@@ -1558,11 +1524,11 @@
     "download_url": "https://download.medicaid.gov/data/MajorEligibilityGroup-anul-102025.csv",
     "format": "csv",
     "keywords": [
-      "DQ Atlas",
-      "major eligibility group",
-      "t-msis analytic files",
-      "chip",
-      "medicaid"
+      "Major Eligibility Group",
+      "Children's Health Insurance Program (CHIP)",
+      "Medicaid",
+      "T-MSIS Analytic Files (TAF)",
+      "DQ (Data Quality) Atlas"
     ],
     "theme": [
       "Enrollment"
@@ -1584,12 +1550,11 @@
     "download_url": "https://download.medicaid.gov/data/medicaid-and-chip-eligibility-levels.xy8t-auhk.csv",
     "format": "csv",
     "keywords": [
-      "chip",
-      "eligibility levels",
-      "federal poverty level",
-      "fpl",
-      "magi",
-      "medicaid"
+      "Children's Health Insurance Program (CHIP)",
+      "Eligibility Levels",
+      "Medicaid",
+      "Federal Poverty Level (FPL)",
+      "Modified Adjusted Gross Income (MAGI)"
     ],
     "theme": [
       "Eligibility"
@@ -1614,8 +1579,8 @@
     "download_url": "https://download.medicaid.gov/data/presumptive-eligibility-for-medicaid-and-chip-coverage.xjuw-wgmy.csv",
     "format": "csv",
     "keywords": [
-      "enrollment strategies",
-      "presumptive eligibility"
+      "Enrollment Strategies",
+      "Presumptive Eligibility"
     ],
     "theme": [
       "Eligibility"
@@ -1626,20 +1591,21 @@
   {
     "title": "Section 1915(c) waiver program participants",
     "identifier": "4d4eaf55-33d3-4468-80b4-63553f4530ae",
-    "description": "This data set includes annual counts and percentages of Medicaid and Children\u2019s Health Insurance Program (CHIP) enrollees who received a well-child visit paid for by Medicaid or CHIP, overall and by five subpopulation topics: age group, race and ethnicity, urban or rural residence, program type, and primary language.\r\nThese results were generated using Transformed Medicaid Statistical Information System (T-MSIS) Analytic Files (TAF) Release 1 data and the Race/Ethnicity Imputation Companion File. This data set includes Medicaid and CHIP enrollees in all 50 states, the District of Columbia, Puerto Rico, and the U.S. Virgin Islands, except where otherwise noted. Enrollees in Guam, American Samoa, and the Northern Mariana Islands are not included. Results include enrollees with comprehensive Medicaid or CHIP benefits for all 12 months of the year and who were younger than age 19 at the end of the calendar year. Results shown for the race and ethnicity subpopulation topic exclude enrollees in the U.S. Virgin Islands. Results shown for the primary language subpopulation topic exclude select states with data quality issues with the primary language variable in TAF. Some rows in the data set have a value of \"DS,\" which indicates that data were suppressed according to the Centers for Medicare & Medicaid Services\u2019 Cell Suppression Policy for values between 1 and 10.\r\nThis data set is based on the brief: \"Medicaid and CHIP enrollees who received a well-child visit in 2020.\" Enrollees are identified as receiving a well-child visit in the year according to the Line 6 criteria in the Form CMS-416 reporting instructions. Enrollees are assigned to an age group subpopulation using age as of December 31st of the calendar year. Enrollees are assigned to a race and ethnicity subpopulation using the state-reported race and ethnicity information in TAF when it is available and of good quality; if it is missing or unreliable, race and ethnicity is indirectly estimated using an enhanced version of Bayesian Improved Surname Geocoding (BISG) (Race and ethnicity of the national Medicaid and CHIP population in 2020). Enrollees are assigned to an urban or rural subpopulation based on the 2010 Rural-Urban Commuting Area (RUCA) code associated with their home or mailing address ZIP code in TAF (Rural Medicaid and CHIP enrollees in 2020). Enrollees are assigned to a program type subpopulation based on the CHIP code and eligibility group code that applies to the majority of their enrolled-months during the year (Medicaid-Only Enrollment; M-CHIP and S-CHIP Enrollment). Enrollees are assigned to a primary language subpopulation based on their reported ISO language code in TAF (English/missing, Spanish, and all other language codes) (Primary Language). Please refer to the full brief for additional context about the methodology and detailed findings. Future updates to this data set will include more recent data years as the TAF data become available.",
+    "description": "This data set includes annual counts and percentages of Medicaid and Children\u2019s Health Insurance Program (CHIP) enrollees who received a well-child visit paid for by Medicaid or CHIP, overall and by five subpopulation topics: age group, race and ethnicity, urban or rural residence, program type, and primary language.\nThese results were generated using Transformed Medicaid Statistical Information System (T-MSIS) Analytic Files (TAF) Release 1 data and the Race/Ethnicity Imputation Companion File. This data set includes Medicaid and CHIP enrollees in all 50 states, the District of Columbia, Puerto Rico, and the U.S. Virgin Islands, except where otherwise noted. Enrollees in Guam, American Samoa, and the Northern Mariana Islands are not included. Results include enrollees with comprehensive Medicaid or CHIP benefits for all 12 months of the year and who were younger than age 19 at the end of the calendar year. Results shown for the race and ethnicity subpopulation topic exclude enrollees in the U.S. Virgin Islands. Results shown for the primary language subpopulation topic exclude select states with data quality issues with the primary language variable in TAF. Some rows in the data set have a value of \"DS,\" which indicates that data were suppressed according to the Centers for Medicare &amp; Medicaid Services\u2019 Cell Suppression Policy for values between 1 and 10.\nThis data set is based on the brief: \"Medicaid and CHIP enrollees who received a well-child visit in 2020.\" Enrollees are identified as receiving a well-child visit in the year according to the Line 6 criteria in the Form CMS-416 reporting instructions. Enrollees are assigned to an age group subpopulation using age as of December 31st of the calendar year. Enrollees are assigned to a race and ethnicity subpopulation using the state-reported race and ethnicity information in TAF when it is available and of good quality; if it is missing or unreliable, race and ethnicity is indirectly estimated using an enhanced version of Bayesian Improved Surname Geocoding (BISG) (Race and ethnicity of the national Medicaid and CHIP population in 2020). Enrollees are assigned to an urban or rural subpopulation based on the 2010 Rural-Urban Commuting Area (RUCA) code associated with their home or mailing address ZIP code in TAF (Rural Medicaid and CHIP enrollees in 2020). Enrollees are assigned to a program type subpopulation based on the CHIP code and eligibility group code that applies to the majority of their enrolled-months during the year (Medicaid-Only Enrollment; M-CHIP and S-CHIP Enrollment). Enrollees are assigned to a primary language subpopulation based on their reported ISO language code in TAF (English/missing, Spanish, and all other language codes) (Primary Language). Please refer to the full brief for additional context about the methodology and detailed findings. Future updates to this data set will include more recent data years as the TAF data become available.",
     "category": "Eligibility & Enrollment Policy",
     "cadence": "Unknown",
     "modified": "2025-01-17T04:40:10+00:00",
     "download_url": "https://download.medicaid.gov/data/1915c-waiver-2020-2022-01162025.csv",
     "format": "csv",
     "keywords": [
-      "medicaid",
-      "t-msis analytic files",
-      "eligibility",
-      "section 1915(c) waivers",
-      "home and community-based services"
+      "Medicaid",
+      "Section 1915(C) Waivers",
+      "T-MSIS Analytic Files (TAF)",
+      "Home And Community-Based Services (HCBS)"
     ],
-    "theme": [],
+    "theme": [
+      "Eligibility"
+    ],
     "notes": "Enrollment counts in HCBS waiver programs by state. Covers I/DD, aging, physical disability, and other LTSS populations.",
     "relationships": []
   },
@@ -1653,13 +1619,12 @@
     "download_url": "https://download.medicaid.gov/data/renewal-dataset-july-2026-release.csv",
     "format": "csv",
     "keywords": [
-      "medicaid",
-      "enrollment",
-      "child enrollment",
-      "eligibility determinations",
-      "chip",
-      "program enrollment",
-      "renewals"
+      "Medicaid",
+      "Child Enrollment",
+      "Eligibility Determinations",
+      "Children's Health Insurance Program (CHIP)",
+      "Program Enrollment",
+      "Renewals"
     ],
     "theme": [
       "Enrollment"
@@ -1681,12 +1646,11 @@
     "download_url": "https://data.medicaid.gov/sites/default/files/uploaded_resources/StateMedicaidandCHIPApplicationsEligibilityDeterminationsandEnrollmentData04282022.csv",
     "format": "csv",
     "keywords": [
-      "enrollment",
-      "child enrollment",
-      "eligibility determinations",
-      "applications",
-      "chip",
-      "medicaid"
+      "Child Enrollment",
+      "Eligibility Determinations",
+      "Applications",
+      "Children's Health Insurance Program (CHIP)",
+      "Medicaid"
     ],
     "theme": [
       "Enrollment"
@@ -1704,11 +1668,11 @@
     "download_url": "https://download.medicaid.gov/data/DualStatus-montly.csv",
     "format": "csv",
     "keywords": [
-      "DQ Atlas",
-      "dual enrollment",
-      "t-msis analytic files",
-      "chip",
-      "medicaid"
+      "Dual Enrollment",
+      "Children's Health Insurance Program (CHIP)",
+      "Medicaid",
+      "T-MSIS Analytic Files (TAF)",
+      "DQ (Data Quality) Atlas"
     ],
     "theme": [
       "Enrollment"
@@ -1726,11 +1690,11 @@
     "download_url": "https://download.medicaid.gov/data/DualStatus-anul.csv",
     "format": "csv",
     "keywords": [
-      "DQ Atlas",
-      "dual enrollment",
-      "t-msis analytic files",
-      "chip",
-      "medicaid"
+      "Dual Enrollment",
+      "Children's Health Insurance Program (CHIP)",
+      "Medicaid",
+      "T-MSIS Analytic Files (TAF)",
+      "DQ (Data Quality) Atlas"
     ],
     "theme": [
       "Enrollment"
@@ -1748,12 +1712,11 @@
     "download_url": "https://download.medicaid.gov/data/medicaid-enrollment-new-adult-group-02052026.csv",
     "format": "csv",
     "keywords": [
-      "viii group",
-      "expansion population",
-      "new adult group",
-      "cms-64",
-      "enrollment",
-      "medicaid"
+      "VIII Group",
+      "Expansion Population",
+      "New Adult Group",
+      "CMS-64",
+      "Medicaid"
     ],
     "theme": [
       "Enrollment"
@@ -1778,7 +1741,7 @@
     "download_url": "https://data.medicaid.gov/sites/default/files/uploaded_resources/pi-dataset-test1.csv",
     "format": "csv",
     "keywords": [
-      "medicaid"
+      "Medicaid"
     ],
     "theme": [],
     "notes": "Primary enrollment dataset. Monthly point-in-time Medicaid/CHIP enrollment by state, eligibility group, managed care status. The workhorse denominator for per-enrollee calculations.",
@@ -1825,11 +1788,11 @@
     "download_url": "https://download.medicaid.gov/data/ProgramType-montly.csv",
     "format": "csv",
     "keywords": [
-      "DQ Atlas",
-      "program enrollment",
-      "t-msis analytic files",
-      "chip",
-      "medicaid"
+      "Program Enrollment",
+      "Children's Health Insurance Program (CHIP)",
+      "Medicaid",
+      "T-MSIS Analytic Files (TAF)",
+      "DQ (Data Quality) Atlas"
     ],
     "theme": [
       "Enrollment"
@@ -1847,11 +1810,11 @@
     "download_url": "https://download.medicaid.gov/data/ProgramType-anul.csv",
     "format": "csv",
     "keywords": [
-      "DQ Atlas",
-      "program enrollment",
-      "t-msis analytic files",
-      "chip",
-      "medicaid"
+      "Program Enrollment",
+      "Children's Health Insurance Program (CHIP)",
+      "Medicaid",
+      "T-MSIS Analytic Files (TAF)",
+      "DQ (Data Quality) Atlas"
     ],
     "theme": [
       "Enrollment"
@@ -1869,12 +1832,11 @@
     "download_url": "https://download.medicaid.gov/data/current-chip-caa-reporting-metrics-june-2026-release.csv",
     "format": "csv",
     "keywords": [
-      "child enrollment",
-      "enrollment",
-      "eligibility determinations",
-      "applications",
-      "chip",
-      "program enrollment"
+      "Child Enrollment",
+      "Eligibility Determinations",
+      "Applications",
+      "Children's Health Insurance Program (CHIP)",
+      "Program Enrollment"
     ],
     "theme": [
       "Enrollment"
@@ -1885,23 +1847,23 @@
   {
     "title": "Separate CHIP Enrollment by Month and State \u2013 Historic CAA/Unwinding Period",
     "identifier": "d30cfc7c-4b32-4df1-b2bf-e0a850befd77",
-    "description": "<p>This historic dataset with total enrollment in separate CHIP programs by month and state was created to fulfill reporting requirements under section 1902(tt)(1) of the Social Security Act, which was added by section 5131(b) of subtitle D of title V of division FF of the Consolidated Appropriations Act, 2023 (P.L. 117-328) (CAA, 2023). For each month from April 1, 2023, through June 30, 2024, states were required to submit to CMS (on a timely basis), and CMS was required to make public, certain monthly data, including the total number of beneficiaries who were enrolled in a separate CHIP program. Accordingly, this historic dataset contains separate CHIP enrollment by month and state between April 2023 and June 2024.</p>\r\n<p>CMS will continue to publicly report separate CHIP enrollment by month and state (beyond the historic CAA/Unwinding period) in a new dataset, which is available at <a href=\"https://data.medicaid.gov/dataset/4723da0d-4d04-46ce-8163-e4b58c8fe728\">[link]</a>. Please note that the methods used to count separate CHIP enrollees differ slightly between the two datasets; as a result, data users should exercise caution if comparing separate CHIP enrollment across the two datasets.</p>\r\n<p><b>Sources:</b> T-MSIS Analytic Files (TAF) and state-submitted enrollment totals. The data notes indicate when a state\u2019s monthly total was a state-submitted value, rather than from T-MSIS.<br /><br />TAF data were pulled as follows:<br />April 2023 enrollment - TAF as of August 2023<br />May 2023 enrollment - TAF as of August 2023<br />June 2023 enrollment - TAF as of September 2023<br />July 2023 enrollment - TAF as of October 2023<br />August 2023 enrollment - TAF as of November 2023<br />September 2023 enrollment - TAF as of December 2023<br />October 2023 enrollment - TAF as of January 2024<br />November 2023 enrollment - TAF as of February 2024<br />December 2023 enrollment - TAF as of March 2024<br />January 2024 enrollment - TAF as of April 2024<br />February 2024 enrollment - TAF as of May 2024<br />March 2024 enrollment - TAF as of June 2024<br />April 2024 enrollment \u2013 TAF as of July 2024<br/>May 2024 enrollment \u2013 TAF as of August 2024<br/>June 2024 enrollment \u2013 TAF as of September 2024</p>\t\r\n<p>TAF are produced one month after the T-MSIS submission month. For example, TAF as of August 2023 is based on July T-MSIS submissions.</p>\r\n<p><b>Notes:</b> The separate CHIP enrollment in this report is not inclusive of enrollees covered by Medicaid expansion CHIP. Enrollment includes individuals enrolled in separate CHIP at any point during the month but excludes those enrolled in both Medicaid and separate CHIP during the month. See the Data Sources and Metrics Definitions Overview document for a full description of the data sources, metric definitions, and general data limitations.<br /><br />Alaska, District of Columbia, Hawaii, New Hampshire, New Mexico, North Carolina, North Dakota, Ohio, South Carolina, Vermont, and Wyoming do not have separate CHIP Programs. Maryland has a separate CHIP program that began in July 2023; April 2023 - June 2023 data for Maryland represents retroactive coverage. <br /><br />This document includes separate CHIP data submitted to CMS by states via T-MSIS or a separate collection form. These data include reporting metrics consistent with section 1902(tt)(1) of the Social Security Act.<br /><br />CHIP: Children's Health Insurance Program</p>\t\r\n<p><b>Data notes:</b> \r\n(a) State-submitted value; data not from T-MSIS<br />(b1) May 2023 enrollment pulled from TAF as of September 2023<br />(b2) Data was restated using TAF as of October 2023<br />(b3) Data was restated using TAF as of April 2024<br />(b4) Data was restated using TAF as of July 2024<br />(b5) Data was restated using TAF as of August 2024<br />(c) Enrollment counts include postpartum women with coverage funded via a Health Services Initiative</p>",
+    "description": "<p>This historic dataset with total enrollment in separate CHIP programs by month and state was created to fulfill reporting requirements under section 1902(tt)(1) of the Social Security Act, which was added by section 5131(b) of subtitle D of title V of division FF of the Consolidated Appropriations Act, 2023 (P.L. 117-328) (CAA, 2023). For each month from April 1, 2023, through June 30, 2024, states were required to submit to CMS (on a timely basis), and CMS was required to make public, certain monthly data, including the total number of beneficiaries who were enrolled in a separate CHIP program. Accordingly, this historic dataset contains separate CHIP enrollment by month and state between April 2023 and June 2024.</p>\n<p>CMS will continue to publicly report separate CHIP enrollment by month and state (beyond the historic CAA/Unwinding period) in a new dataset, which is available at <a href=\"https://data.medicaid.gov/dataset/4723da0d-4d04-46ce-8163-e4b58c8fe728\">[link]</a>. Please note that the methods used to count separate CHIP enrollees differ slightly between the two datasets; as a result, data users should exercise caution if comparing separate CHIP enrollment across the two datasets.</p>\n<p><b>Sources:</b> T-MSIS Analytic Files (TAF) and state-submitted enrollment totals. The data notes indicate when a state\u2019s monthly total was a state-submitted value, rather than from T-MSIS.<br /><br />TAF data were pulled as follows:<br />April 2023 enrollment - TAF as of August 2023<br />May 2023 enrollment - TAF as of August 2023<br />June 2023 enrollment - TAF as of September 2023<br />July 2023 enrollment - TAF as of October 2023<br />August 2023 enrollment - TAF as of November 2023<br />September 2023 enrollment - TAF as of December 2023<br />October 2023 enrollment - TAF as of January 2024<br />November 2023 enrollment - TAF as of February 2024<br />December 2023 enrollment - TAF as of March 2024<br />January 2024 enrollment - TAF as of April 2024<br />February 2024 enrollment - TAF as of May 2024<br />March 2024 enrollment - TAF as of June 2024<br />April 2024 enrollment \u2013 TAF as of July 2024<br />May 2024 enrollment \u2013 TAF as of August 2024<br />June 2024 enrollment \u2013 TAF as of September 2024</p>\t\n<p>TAF are produced one month after the T-MSIS submission month. For example, TAF as of August 2023 is based on July T-MSIS submissions.</p>\n<p><b>Notes:</b> The separate CHIP enrollment in this report is not inclusive of enrollees covered by Medicaid expansion CHIP. Enrollment includes individuals enrolled in separate CHIP at any point during the month but excludes those enrolled in both Medicaid and separate CHIP during the month. See the Data Sources and Metrics Definitions Overview document for a full description of the data sources, metric definitions, and general data limitations.<br /><br />Alaska, District of Columbia, Hawaii, New Hampshire, New Mexico, North Carolina, North Dakota, Ohio, South Carolina, Vermont, and Wyoming do not have separate CHIP Programs. Maryland has a separate CHIP program that began in July 2023; April 2023 - June 2023 data for Maryland represents retroactive coverage. <br /><br />This document includes separate CHIP data submitted to CMS by states via T-MSIS or a separate collection form. These data include reporting metrics consistent with section 1902(tt)(1) of the Social Security Act.<br /><br />CHIP: Children's Health Insurance Program</p>\t\n<p><b>Data notes:</b> \n(a) State-submitted value; data not from T-MSIS<br />(b1) May 2023 enrollment pulled from TAF as of September 2023<br />(b2) Data was restated using TAF as of October 2023<br />(b3) Data was restated using TAF as of April 2024<br />(b4) Data was restated using TAF as of July 2024<br />(b5) Data was restated using TAF as of August 2024<br />(c) Enrollment counts include postpartum women with coverage funded via a Health Services Initiative</p>",
     "category": "Enrollment",
     "cadence": "Monthly",
     "modified": "2024-12-27T18:57:00+00:00",
     "download_url": "https://download.medicaid.gov/data/chip-caa-reporting-metrics-long-table-november-2024-release.csv",
     "format": "csv",
     "keywords": [
-      "program enrollment",
-      "child enrollment",
-      "eligibility determinations",
-      "applications",
-      "chip",
-      "enrollment",
-      "medicaid"
+      "Program Enrollment",
+      "Child Enrollment",
+      "Eligibility Determinations",
+      "Applications",
+      "Children's Health Insurance Program (CHIP)",
+      "Medicaid"
     ],
     "theme": [
-      "Unwinding"
+      "Unwinding",
+      "Enrollment"
     ],
     "notes": "CHIP enrollment during the CAA continuous enrollment period and subsequent unwinding.",
     "relationships": []
@@ -1916,14 +1878,13 @@
     "download_url": "https://download.medicaid.gov/data/pi-dataset-july-2026-release.csv",
     "format": "csv",
     "keywords": [
-      "child enrollment",
-      "eligibility determinations",
-      "applications",
-      "chip",
-      "enrollment",
-      "medicaid",
-      "magi application processing",
-      "call center"
+      "Child Enrollment",
+      "Eligibility Determinations",
+      "Applications",
+      "Children's Health Insurance Program (CHIP)",
+      "Medicaid",
+      "Call Center",
+      "Modified Adjusted Gross Income (MAGI) Application Processing"
     ],
     "theme": [
       "Enrollment"
@@ -1941,7 +1902,7 @@
     "download_url": "https://download.medicaid.gov/data/disproportionate-share-hospital-dsh-payments-annual-reporting-requirements.88ti-fz9c.csv",
     "format": "csv",
     "keywords": [
-      "medicaid"
+      "Medicaid"
     ],
     "theme": [
       "Uncategorized"
@@ -1959,7 +1920,7 @@
     "download_url": "https://download.medicaid.gov/data/mlr-public-use-file-updated06262026.csv",
     "format": "csv",
     "keywords": [
-      "medicaid"
+      "Medicaid"
     ],
     "theme": [
       "Uncategorized"
@@ -1977,7 +1938,7 @@
     "download_url": "https://download.medicaid.gov/data/Medicaid-CMS-64-CAA-2023-Increased-FMAP-Expenditure-Data-Collected-through-MBES-CBES-2-18-2026.csv",
     "format": "csv",
     "keywords": [
-      "medicaid"
+      "Medicaid"
     ],
     "theme": [],
     "notes": "Expenditure data tied to the Consolidated Appropriations Act 2023 increased FMAP provisions.",
@@ -1993,7 +1954,7 @@
     "download_url": "https://download.medicaid.gov/data/Medicaid-CMS-64-FFCRA-Increased-FMAP-Expenditure-03182026.csv",
     "format": "csv",
     "keywords": [
-      "medicaid"
+      "Medicaid"
     ],
     "theme": [],
     "notes": "Tracks additional federal spending under the Families First Coronavirus Response Act's temporary FMAP increase. Covers the continuous enrollment condition period.",
@@ -2009,13 +1970,13 @@
     "download_url": "https://download.medicaid.gov/data/medicaid-cms-64-new-adult-group-expenditures-dataset-02172026.csv",
     "format": "csv",
     "keywords": [
-      "expenditures",
-      "mbes",
-      "viii group",
-      "expansion population",
-      "new adult group",
-      "cms-64",
-      "medicaid"
+      "Expenditures",
+      "VIII Group",
+      "Expansion Population",
+      "New Adult Group",
+      "CMS-64",
+      "Medicaid",
+      "Medicaid Budget and Expenditure System (MBES)"
     ],
     "theme": [
       "Uncategorized"
@@ -2046,8 +2007,8 @@
     "download_url": "https://download.medicaid.gov/data/medicaid-financial-management-data.7kua-37xz.csv",
     "format": "csv",
     "keywords": [
-      "cms-64 expenditures",
-      "financial management report"
+      "CMS-64 Expenditures",
+      "Financial Management"
     ],
     "theme": [
       "Uncategorized"
@@ -2072,9 +2033,9 @@
     "download_url": "https://download.medicaid.gov/data/medicaid-financial-management-data-national-totals.h7at-haku.csv",
     "format": "csv",
     "keywords": [
-      "cms-64 expenditures",
-      "financial management report",
-      "national totals"
+      "CMS-64 Expenditures",
+      "Financial Management",
+      "National Totals"
     ],
     "theme": [
       "Uncategorized"
@@ -2092,7 +2053,7 @@
     "download_url": "https://download.medicaid.gov/data/2017-managed-care-programs-by-state.hc9x-7kex101725.csv",
     "format": "csv",
     "keywords": [
-      "medicaid"
+      "Medicaid"
     ],
     "theme": [
       "Enrollment"
@@ -2114,7 +2075,7 @@
     "download_url": "https://download.medicaid.gov/data/2018-manged-care-programs-by-state_310172025.csv",
     "format": "csv",
     "keywords": [
-      "medicaid"
+      "Medicaid"
     ],
     "theme": [],
     "notes": "Annual snapshot of managed care program structures by state.",
@@ -2130,7 +2091,7 @@
     "download_url": "https://download.medicaid.gov/data/2019_Table9_10_updated.csv",
     "format": "csv",
     "keywords": [
-      "medicaid"
+      "Medicaid"
     ],
     "theme": [],
     "notes": "Annual snapshot of managed care program structures by state.",
@@ -2146,7 +2107,7 @@
     "download_url": "https://download.medicaid.gov/data/2020-Table9_06132022_2_100825-10172025.csv",
     "format": "csv",
     "keywords": [
-      "medicaid"
+      "Medicaid"
     ],
     "theme": [],
     "notes": "Annual snapshot of managed care program structures by state.",
@@ -2162,7 +2123,7 @@
     "download_url": "https://download.medicaid.gov/data/2021-Table9_07212023_2.csv",
     "format": "csv",
     "keywords": [
-      "medicaid"
+      "Medicaid"
     ],
     "theme": [],
     "notes": "Annual snapshot of managed care program structures by state.",
@@ -2178,7 +2139,7 @@
     "download_url": "https://data.medicaid.gov/sites/default/files/uploaded_resources/2022-Managed-care-prgrm-features-by-state.csv",
     "format": "csv",
     "keywords": [
-      "medicaid"
+      "Medicaid"
     ],
     "theme": [],
     "notes": "Annual snapshot of managed care program structures by state.",
@@ -2194,7 +2155,7 @@
     "download_url": "https://download.medicaid.gov/data/managed-care-program-by-state-2023.csv",
     "format": "csv",
     "keywords": [
-      "medicaid"
+      "Medicaid"
     ],
     "theme": [],
     "notes": "Annual snapshot of managed care program structures by state.",
@@ -2210,7 +2171,7 @@
     "download_url": "https://download.medicaid.gov/data/managed-care-program-by-state-2024.csv",
     "format": "csv",
     "keywords": [
-      "medicaid"
+      "Medicaid"
     ],
     "theme": [],
     "notes": "Annual snapshot of managed care program structures by state: plan types, populations served, and key program features.",
@@ -2226,7 +2187,7 @@
     "download_url": "https://download.medicaid.gov/data/managed-care-enrollment-summary-2024-table1.csv",
     "format": "csv",
     "keywords": [
-      "medicaid"
+      "Medicaid"
     ],
     "theme": [
       "Enrollment"
@@ -2255,17 +2216,17 @@
     "download_url": "https://download.medicaid.gov/data/managed-care-enrollment-by-program-and-plan2024-table4.csv",
     "format": "csv",
     "keywords": [
-      "comprehensive mco",
-      "managed care enrollment",
-      "mco",
-      "mltss",
-      "pace",
-      "pahp",
-      "pccm",
-      "pihp",
-      "medicare",
-      "bho",
-      "medicaid"
+      "Comprehensive Managed Care Organizations (MCO)",
+      "Managed Care Enrollment",
+      "Medicare",
+      "Behavioral Health Organization (BHO)",
+      "Medicaid",
+      "Prepaid Inpatient Health Plan (PIHP)",
+      "Primary Care Case Manager (PCCM)",
+      "Prepaid Ambulatory Health Plan (PAHP)",
+      "Program of All-Inclusive Care for the Elderly (PACE)",
+      "Managed Long-Term Services and Supports (MLTSS)",
+      "Managed Care Organizations (MCO)"
     ],
     "theme": [
       "Enrollment"
@@ -2287,16 +2248,16 @@
     "download_url": "https://download.medicaid.gov/data/managed-care-enrollment-by-program-and-population-all-2024-table2.csv",
     "format": "csv",
     "keywords": [
-      "managed care enrollment",
-      "mco",
-      "mltss",
-      "pace",
-      "pahp",
-      "pccm",
-      "pihp",
-      "medicare",
-      "bho",
-      "medicaid"
+      "Managed Care Enrollment",
+      "Medicare",
+      "Behavioral Health Organization (BHO)",
+      "Medicaid",
+      "Prepaid Inpatient Health Plan (PIHP)",
+      "Primary Care Case Manager (PCCM)",
+      "Prepaid Ambulatory Health Plan (PAHP)",
+      "Program of All-Inclusive Care for the Elderly (PACE)",
+      "Managed Long-Term Services and Supports (MLTSS)",
+      "Managed Care Organizations (MCO)"
     ],
     "theme": [
       "Enrollment"
@@ -2318,16 +2279,16 @@
     "download_url": "https://download.medicaid.gov/data/managed-care-enrollment-by-program-and-population-duals-2024-table3.csv",
     "format": "csv",
     "keywords": [
-      "managed care enrollment",
-      "mco",
-      "mltss",
-      "pace",
-      "pahp",
-      "pccm",
-      "pihp",
-      "medicare",
-      "bho",
-      "medicaid"
+      "Managed Care Enrollment",
+      "Medicare",
+      "Behavioral Health Organization (BHO)",
+      "Medicaid",
+      "Prepaid Inpatient Health Plan (PIHP)",
+      "Primary Care Case Manager (PCCM)",
+      "Prepaid Ambulatory Health Plan (PAHP)",
+      "Program of All-Inclusive Care for the Elderly (PACE)",
+      "Managed Long-Term Services and Supports (MLTSS)",
+      "Managed Care Organizations (MCO)"
     ],
     "theme": [
       "Enrollment"
@@ -2349,7 +2310,7 @@
     "download_url": "https://download.medicaid.gov/data/managed-care-features-by-enrollment-population.2024-table7.csv",
     "format": "csv",
     "keywords": [
-      "medicaid"
+      "Medicaid"
     ],
     "theme": [
       "Uncategorized"
@@ -2367,7 +2328,7 @@
     "download_url": "https://download.medicaid.gov/data/managed-care-features-by-qa-and-performance-incentive.2024-table8.csv",
     "format": "csv",
     "keywords": [
-      "medicaid"
+      "Medicaid"
     ],
     "theme": [
       "Uncategorized"
@@ -2385,11 +2346,11 @@
     "download_url": "https://download.medicaid.gov/data/ManagedCare-montly-102025.csv",
     "format": "csv",
     "keywords": [
-      "DQ Atlas",
-      "managed care",
-      "t-msis analytic files",
-      "chip",
-      "medicaid"
+      "Managed Care",
+      "Children's Health Insurance Program (CHIP)",
+      "Medicaid",
+      "T-MSIS Analytic Files (TAF)",
+      "DQ (Data Quality) Atlas"
     ],
     "theme": [
       "Enrollment"
@@ -2411,11 +2372,11 @@
     "download_url": "https://download.medicaid.gov/data/ManagedCare-anul-102025.csv",
     "format": "csv",
     "keywords": [
-      "DQ Atlas",
-      "managed care",
-      "t-msis analytic files",
-      "chip",
-      "medicaid"
+      "Managed Care",
+      "Children's Health Insurance Program (CHIP)",
+      "Medicaid",
+      "T-MSIS Analytic Files (TAF)",
+      "DQ (Data Quality) Atlas"
     ],
     "theme": [
       "Enrollment"
@@ -2437,7 +2398,7 @@
     "download_url": "https://download.medicaid.gov/data/managed-care-programs-by-state.p9c7-tuup-updated-100825-101725.csv",
     "format": "csv",
     "keywords": [
-      "medicaid"
+      "Medicaid"
     ],
     "theme": [
       "Enrollment"
@@ -2459,7 +2420,7 @@
     "download_url": "https://download.medicaid.gov/data/managed-long-term-services-and-supports-mltss-enrollees2024-table6.csv",
     "format": "csv",
     "keywords": [
-      "medicaid"
+      "Medicaid"
     ],
     "theme": [
       "Enrollment"
@@ -2481,10 +2442,9 @@
     "download_url": "https://download.medicaid.gov/data/share-of-medicaid-enrollees-in-managed-care.2024-table5.csv",
     "format": "csv",
     "keywords": [
-      "comprehensive managed care",
-      "managed care",
-      "enrollment",
-      "medicaid"
+      "Comprehensive Managed Care",
+      "Managed Care",
+      "Medicaid"
     ],
     "theme": [
       "Enrollment"
@@ -2513,9 +2473,9 @@
     "download_url": "https://download.medicaid.gov/data/rate-of-nas-per-thous-in-newborns-2017-to-2021.csv",
     "format": "csv",
     "keywords": [
-      "neonatal abstinence syndrome",
-      "chip",
-      "medicaid"
+      "Neonatal Abstinence Syndrome (NAS)",
+      "Children's Health Insurance Program (CHIP)",
+      "Medicaid"
     ],
     "theme": [
       "Uncategorized"
@@ -2533,10 +2493,10 @@
     "download_url": "https://download.medicaid.gov/data/num-rate-smm-med-chip-cov-deliveries-2017-to-2021.csv",
     "format": "csv",
     "keywords": [
-      "maternal health",
-      "pregnancy",
-      "chip",
-      "medicaid"
+      "Maternal Health",
+      "Pregnancy",
+      "Children's Health Insurance Program (CHIP)",
+      "Medicaid"
     ],
     "theme": [
       "Uncategorized"
@@ -2554,10 +2514,10 @@
     "download_url": "https://download.medicaid.gov/data/pregnent-postpartum-beneficiaries-2017to2021.csv",
     "format": "csv",
     "keywords": [
-      "maternal health",
-      "pregnancy",
-      "chip",
-      "medicaid"
+      "Maternal Health",
+      "Pregnancy",
+      "Children's Health Insurance Program (CHIP)",
+      "Medicaid"
     ],
     "theme": [
       "Uncategorized"
@@ -2575,11 +2535,11 @@
     "download_url": "https://download.medicaid.gov/data/Perinatal-Care-Services-Provided-to-MedicaidCHIP-Beneficiaries-ages-15-to-44.csv",
     "format": "csv",
     "keywords": [
-      "perinatal care",
-      "t-msis analytic files",
-      "DQ Atlas",
-      "chip",
-      "medicaid"
+      "Perinatal Care",
+      "Children's Health Insurance Program (CHIP)",
+      "Medicaid",
+      "T-MSIS Analytic Files (TAF)",
+      "DQ (Data Quality) Atlas"
     ],
     "theme": [
       "Uncategorized"
@@ -2597,11 +2557,11 @@
     "download_url": "https://download.medicaid.gov/data/Pregnancy-Outcomes-for-MedicaidCHIP-Beneficiaries-ages-15-to-44.csv",
     "format": "csv",
     "keywords": [
-      "pregnancy",
-      "t-msis analytic files",
-      "DQ Atlas",
-      "chip",
-      "medicaid"
+      "Pregnancy",
+      "Children's Health Insurance Program (CHIP)",
+      "Medicaid",
+      "T-MSIS Analytic Files (TAF)",
+      "DQ (Data Quality) Atlas"
     ],
     "theme": [
       "Uncategorized"
@@ -2612,19 +2572,19 @@
   {
     "title": "Prematurity and severe maternal morbidity among Medicaid- and CHIP-covered live births",
     "identifier": "ee3b9534-0d19-4c1b-bf74-43f898d5de7c",
-    "description": "This data set includes annual counts and rates of Medicaid- and Children\u2019s Health Insurance Program (CHIP)-covered live-birth deliveries that were preterm or with a severe maternal morbidity (SMM) condition within six weeks before or after delivery. Results are shown overall; by state; and by four subpopulation topics: age group, race and ethnicity, disability-related eligibility category, and type of SMM condition (SMM category only). \r\nThese results were generated using Transformed Medicaid Statistical Information System (T-MSIS) Analytic Files (TAF) Release 1 data and the Race/Ethnicity Imputation Companion File. This data set includes Medicaid and CHIP enrollees in all 50 states, the District of Columbia, Puerto Rico, and the U.S. Virgin Islands, who were ages 15 to 49 as of their delivery date, who were enrolled in Medicaid or CHIP at any point in the calendar year, and who had a live birth. Enrollees in Guam, American Samoa, the Northern Mariana Islands, and select states with TAF data quality issues are not included. Results shown for the race and ethnicity subpopulation topic exclude enrollees in the U.S. Virgin Islands. Results for SMM are calculated per 10,000 Medicaid- and CHIP-covered live births. Results for states with TAF data quality issues in the year have a value of \"Unusable data.\" Some rows in the data set have a value of \"DS,\" which indicates that data were suppressed according to the Centers for Medicare & Medicaid Services\u2019 Cell Suppression Policy for values between 1 and 10.\r\n\r\nThis data set is based on the brief: \"Prematurity and severe maternal morbidity among Medicaid- and CHIP-covered live births in 2021.\" Preterm birth is defined as a live birth that occurs before the 37th week of gestation. SMM deliveries are defined as live births with an SMM condition within six weeks before or after delivery (Identifying Severe Maternal Morbidity (SMM)). Enrollees are assigned to an age group subpopulation using age as of their delivery date. Enrollees are assigned to a race and ethnicity subpopulation using the state-reported race and ethnicity information in TAF when it is available and of good quality; if it is missing or unreliable, race and ethnicity is indirectly estimated using an enhanced version of Bayesian Improved Surname Geocoding (BISG) (Race and ethnicity of the national Medicaid and CHIP population in 2020). Enrollees are assigned to a disability category subpopulation using their latest reported eligibility group code and age in the year (Medicaid enrollees who qualify for benefits based on disability in 2020). Please refer to the full brief for additional context about the methodology and detailed findings. Future updates to this data set will include more recent data years as the TAF data become available.",
+    "description": "This data set includes annual counts and rates of Medicaid- and Children\u2019s Health Insurance Program (CHIP)-covered live-birth deliveries that were preterm or with a severe maternal morbidity (SMM) condition within six weeks before or after delivery. Results are shown overall; by state; and by four subpopulation topics: age group, race and ethnicity, disability-related eligibility category, and type of SMM condition (SMM category only). \nThese results were generated using Transformed Medicaid Statistical Information System (T-MSIS) Analytic Files (TAF) Release 1 data and the Race/Ethnicity Imputation Companion File. This data set includes Medicaid and CHIP enrollees in all 50 states, the District of Columbia, Puerto Rico, and the U.S. Virgin Islands, who were ages 15 to 49 as of their delivery date, who were enrolled in Medicaid or CHIP at any point in the calendar year, and who had a live birth. Enrollees in Guam, American Samoa, the Northern Mariana Islands, and select states with TAF data quality issues are not included. Results shown for the race and ethnicity subpopulation topic exclude enrollees in the U.S. Virgin Islands. Results for SMM are calculated per 10,000 Medicaid- and CHIP-covered live births. Results for states with TAF data quality issues in the year have a value of \"Unusable data.\" Some rows in the data set have a value of \"DS,\" which indicates that data were suppressed according to the Centers for Medicare &amp; Medicaid Services\u2019 Cell Suppression Policy for values between 1 and 10.\n\nThis data set is based on the brief: \"Prematurity and severe maternal morbidity among Medicaid- and CHIP-covered live births in 2021.\" Preterm birth is defined as a live birth that occurs before the 37th week of gestation. SMM deliveries are defined as live births with an SMM condition within six weeks before or after delivery (Identifying Severe Maternal Morbidity (SMM)). Enrollees are assigned to an age group subpopulation using age as of their delivery date. Enrollees are assigned to a race and ethnicity subpopulation using the state-reported race and ethnicity information in TAF when it is available and of good quality; if it is missing or unreliable, race and ethnicity is indirectly estimated using an enhanced version of Bayesian Improved Surname Geocoding (BISG) (Race and ethnicity of the national Medicaid and CHIP population in 2020). Enrollees are assigned to a disability category subpopulation using their latest reported eligibility group code and age in the year (Medicaid enrollees who qualify for benefits based on disability in 2020). Please refer to the full brief for additional context about the methodology and detailed findings. Future updates to this data set will include more recent data years as the TAF data become available.",
     "category": "Maternal & Child Health",
     "cadence": "Unknown",
     "modified": "2025-01-17T15:41:00+00:00",
     "download_url": "https://download.medicaid.gov/data/preterm-birth-and-smm-2020-2022-01172025.csv",
     "format": "csv",
     "keywords": [
-      "medicaid",
-      "chip",
-      "maternal health",
-      "t-msis analytic files",
-      "preterm birth",
-      "severe maternal morbidity"
+      "Medicaid",
+      "Children's Health Insurance Program (CHIP)",
+      "Maternal Health",
+      "Preterm Birth",
+      "Severe Maternal Morbidity",
+      "T-MSIS Analytic Files (TAF)"
     ],
     "theme": [],
     "notes": "Combined preterm birth and SMM rates. Summary maternal/infant risk indicator.",
@@ -2640,9 +2600,9 @@
     "download_url": "https://data.medicaid.gov/sites/default/files/uploaded_resources/rate-of-nas-per-thous-in-newborns-2017-to-2019.csv",
     "format": "csv",
     "keywords": [
-      "neonatal abstinence syndrome",
-      "chip",
-      "medicaid"
+      "Neonatal Abstinence Syndrome (NAS)",
+      "Children's Health Insurance Program (CHIP)",
+      "Medicaid"
     ],
     "theme": [
       "Uncategorized"
@@ -2660,7 +2620,7 @@
     "download_url": "https://download.medicaid.gov/data/mmcc-mcpar-puf-2023.csv",
     "format": "csv",
     "keywords": [
-      "medicaid"
+      "Medicaid"
     ],
     "theme": [
       "Uncategorized"
@@ -2678,7 +2638,7 @@
     "download_url": "https://download.medicaid.gov/data/mmcc-mcpar-puf-2024.csv",
     "format": "csv",
     "keywords": [
-      "medicaid"
+      "Medicaid"
     ],
     "theme": [
       "Uncategorized"
@@ -2692,11 +2652,11 @@
     "description": "Staging ",
     "category": "Other",
     "cadence": "Unknown",
-    "modified": "2026-07-31T16:00:00+00:00",
-    "download_url": "https://download.medicaid.gov/data/pi-dataset-july-2026-release.csv",
+    "modified": "2026-08-28T16:00:00+00:00",
+    "download_url": "https://download.medicaid.gov/data/pi-dataset-august-2026-release.csv",
     "format": "csv",
     "keywords": [
-      "medicaid"
+      "Medicaid"
     ],
     "theme": [],
     "notes": "",
@@ -2712,7 +2672,7 @@
     "download_url": "https://download.medicaid.gov/data/pi-dataset-may-2026-release.csv",
     "format": "csv",
     "keywords": [
-      "medicaid"
+      "Medicaid"
     ],
     "theme": [],
     "notes": "",
@@ -2728,9 +2688,9 @@
     "download_url": "https://download.medicaid.gov/data/2014-child-and-adult-health-care-quality-measures.7ycc-v6ew.csv",
     "format": "csv",
     "keywords": [
-      "performance rates",
-      "core sets",
-      "quality measures"
+      "Performance Rates",
+      "Core Sets",
+      "Quality Measures"
     ],
     "theme": [
       "Quality"
@@ -2748,9 +2708,9 @@
     "download_url": "https://download.medicaid.gov/data/2015-child-and-adult-health-care-quality-measures.7kj7-m9ih.csv",
     "format": "csv",
     "keywords": [
-      "core sets",
-      "performance rates",
-      "quality measures"
+      "Core Sets",
+      "Performance Rates",
+      "Quality Measures"
     ],
     "theme": [
       "Quality"
@@ -2768,9 +2728,9 @@
     "download_url": "https://download.medicaid.gov/data/2016-child-and-adult-health-care-quality-measures.vncf-b8xx.csv",
     "format": "csv",
     "keywords": [
-      "core sets",
-      "performance rates",
-      "quality measures"
+      "Core Sets",
+      "Performance Rates",
+      "Quality Measures"
     ],
     "theme": [
       "Quality"
@@ -2788,9 +2748,9 @@
     "download_url": "https://download.medicaid.gov/data/2017-child-and-adult-health-care-quality-measures.y7g4-qir6.csv",
     "format": "csv",
     "keywords": [
-      "performance rates",
-      "core sets",
-      "quality measures"
+      "Performance Rates",
+      "Core Sets",
+      "Quality Measures"
     ],
     "theme": [
       "Quality"
@@ -2808,9 +2768,9 @@
     "download_url": "https://download.medicaid.gov/data/2018-child-and-adult-health-care-quality-measures.2ir3-z9a8.csv",
     "format": "csv",
     "keywords": [
-      "core sets",
-      "performance rates",
-      "quality measures"
+      "Core Sets",
+      "Performance Rates",
+      "Quality Measures"
     ],
     "theme": [
       "Quality"
@@ -2828,9 +2788,9 @@
     "download_url": "https://download.medicaid.gov/data/2019-child-and-adult-health-care-quality-measures-quality.afrw-yks2.csv",
     "format": "csv",
     "keywords": [
-      "core sets",
-      "performance rates",
-      "quality measures"
+      "Core Sets",
+      "Performance Rates",
+      "Quality Measures"
     ],
     "theme": [
       "Quality"
@@ -2848,9 +2808,9 @@
     "download_url": "https://data.medicaid.gov/sites/default/files/uploaded_resources/2020-child-and-adult-health-care-quality-measures.csv",
     "format": "csv",
     "keywords": [
-      "performance rates",
-      "core sets",
-      "quality measures"
+      "Performance Rates",
+      "Core Sets",
+      "Quality Measures"
     ],
     "theme": [
       "Quality"
@@ -2868,9 +2828,9 @@
     "download_url": "https://data.medicaid.gov/sites/default/files/uploaded_resources/2021-child-and-adult-health-care-quality-measures_0.csv",
     "format": "csv",
     "keywords": [
-      "performance rates",
-      "core sets",
-      "quality measures"
+      "Performance Rates",
+      "Core Sets",
+      "Quality Measures"
     ],
     "theme": [
       "Quality"
@@ -2888,9 +2848,9 @@
     "download_url": "https://data.medicaid.gov/sites/default/files/uploaded_resources/2022-child-and-adult-health-care-quality-measures_0.csv",
     "format": "csv",
     "keywords": [
-      "performance rates",
-      "core sets",
-      "quality measures"
+      "Performance Rates",
+      "Core Sets",
+      "Quality Measures"
     ],
     "theme": [
       "Quality"
@@ -2908,9 +2868,9 @@
     "download_url": "https://data.medicaid.gov/sites/default/files/uploaded_resources/2023-child-and-adult-health-care-quality-measures.csv",
     "format": "csv",
     "keywords": [
-      "performance rates",
-      "core sets",
-      "quality measures"
+      "Performance Rates",
+      "Core Sets",
+      "Quality Measures"
     ],
     "theme": [
       "Quality"
@@ -2928,9 +2888,9 @@
     "download_url": "https://download.medicaid.gov/data/2024-child-and-adult-health-care-quality-measures.csv",
     "format": "csv",
     "keywords": [
-      "performance rates",
-      "core sets",
-      "quality measures"
+      "Performance Rates",
+      "Core Sets",
+      "Quality Measures"
     ],
     "theme": [
       "Quality"
@@ -2945,12 +2905,12 @@
     "category": "Quality Measures",
     "cadence": "Unknown",
     "modified": "2026-07-16T04:00:00+00:00",
-    "download_url": "https://download.medicaid.gov/data/mdrp-newly-rprt-drug-07-06-2026-to-07-12-2026.csv",
+    "download_url": "https://data.medicaid.gov/sites/default/files/uploaded_resources/2025-child-and-adult-health-care-quality-measures.csv",
     "format": "unknown",
     "keywords": [
-      "performance rates",
-      "core sets",
-      "quality measures"
+      "Performance Rates",
+      "Core Sets",
+      "Quality Measures"
     ],
     "theme": [
       "Quality"
@@ -2961,19 +2921,19 @@
   {
     "title": "Medicaid and CHIP enrollees who received a well-child visit",
     "identifier": "289182e5-44c8-4fcc-96c4-4af69be9863f",
-    "description": "This data set includes annual counts and percentages of Medicaid and Children\u2019s Health Insurance Program (CHIP) enrollees who received a well-child visit paid for by Medicaid or CHIP, overall and by five subpopulation topics: age group, race and ethnicity, urban or rural residence, program type, and primary language.\r\nThese results were generated using Transformed Medicaid Statistical Information System (T-MSIS) Analytic Files (TAF) Release 1 data and the Race/Ethnicity Imputation Companion File. This data set includes Medicaid and CHIP enrollees in all 50 states, the District of Columbia, Puerto Rico, and the U.S. Virgin Islands, except where otherwise noted. Enrollees in Guam, American Samoa, and the Northern Mariana Islands are not included. Results include enrollees with comprehensive Medicaid or CHIP benefits for all 12 months of the year and who were younger than age 19 at the end of the calendar year. Results shown for the race and ethnicity subpopulation topic exclude enrollees in the U.S. Virgin Islands. Results shown for the primary language subpopulation topic exclude select states with data quality issues with the primary language variable in TAF. Some rows in the data set have a value of \"DS,\" which indicates that data were suppressed according to the Centers for Medicare & Medicaid Services\u2019 Cell Suppression Policy for values between 1 and 10.\r\nThis data set is based on the brief: \"Medicaid and CHIP enrollees who received a well-child visit in 2020.\" Enrollees are identified as receiving a well-child visit in the year according to the Line 6 criteria in the Form CMS-416 reporting instructions. Enrollees are assigned to an age group subpopulation using age as of December 31st of the calendar year. Enrollees are assigned to a race and ethnicity subpopulation using the state-reported race and ethnicity information in TAF when it is available and of good quality; if it is missing or unreliable, race and ethnicity is indirectly estimated using an enhanced version of Bayesian Improved Surname Geocoding (BISG) (Race and ethnicity of the national Medicaid and CHIP population in 2020). Enrollees are assigned to an urban or rural subpopulation based on the 2010 Rural-Urban Commuting Area (RUCA) code associated with their home or mailing address ZIP code in TAF (Rural Medicaid and CHIP enrollees in 2020). Enrollees are assigned to a program type subpopulation based on the CHIP code and eligibility group code that applies to the majority of their enrolled-months during the year (Medicaid-Only Enrollment; M-CHIP and S-CHIP Enrollment). Enrollees are assigned to a primary language subpopulation based on their reported ISO language code in TAF (English/missing, Spanish, and all other language codes) (Primary Language). Please refer to the full brief for additional context about the methodology and detailed findings. Future updates to this data set will include more recent data years as the TAF data become available.",
+    "description": "This data set includes annual counts and percentages of Medicaid and Children\u2019s Health Insurance Program (CHIP) enrollees who received a well-child visit paid for by Medicaid or CHIP, overall and by five subpopulation topics: age group, race and ethnicity, urban or rural residence, program type, and primary language.\nThese results were generated using Transformed Medicaid Statistical Information System (T-MSIS) Analytic Files (TAF) Release 1 data and the Race/Ethnicity Imputation Companion File. This data set includes Medicaid and CHIP enrollees in all 50 states, the District of Columbia, Puerto Rico, and the U.S. Virgin Islands, except where otherwise noted. Enrollees in Guam, American Samoa, and the Northern Mariana Islands are not included. Results include enrollees with comprehensive Medicaid or CHIP benefits for all 12 months of the year and who were younger than age 19 at the end of the calendar year. Results shown for the race and ethnicity subpopulation topic exclude enrollees in the U.S. Virgin Islands. Results shown for the primary language subpopulation topic exclude select states with data quality issues with the primary language variable in TAF. Some rows in the data set have a value of \"DS,\" which indicates that data were suppressed according to the Centers for Medicare &amp; Medicaid Services\u2019 Cell Suppression Policy for values between 1 and 10.\nThis data set is based on the brief: \"Medicaid and CHIP enrollees who received a well-child visit in 2020.\" Enrollees are identified as receiving a well-child visit in the year according to the Line 6 criteria in the Form CMS-416 reporting instructions. Enrollees are assigned to an age group subpopulation using age as of December 31st of the calendar year. Enrollees are assigned to a race and ethnicity subpopulation using the state-reported race and ethnicity information in TAF when it is available and of good quality; if it is missing or unreliable, race and ethnicity is indirectly estimated using an enhanced version of Bayesian Improved Surname Geocoding (BISG) (Race and ethnicity of the national Medicaid and CHIP population in 2020). Enrollees are assigned to an urban or rural subpopulation based on the 2010 Rural-Urban Commuting Area (RUCA) code associated with their home or mailing address ZIP code in TAF (Rural Medicaid and CHIP enrollees in 2020). Enrollees are assigned to a program type subpopulation based on the CHIP code and eligibility group code that applies to the majority of their enrolled-months during the year (Medicaid-Only Enrollment; M-CHIP and S-CHIP Enrollment). Enrollees are assigned to a primary language subpopulation based on their reported ISO language code in TAF (English/missing, Spanish, and all other language codes) (Primary Language). Please refer to the full brief for additional context about the methodology and detailed findings. Future updates to this data set will include more recent data years as the TAF data become available.",
     "category": "Quality Measures",
     "cadence": "Unknown",
     "modified": "2025-01-17T04:44:19+00:00",
     "download_url": "https://download.medicaid.gov/data/well-child-visits-2020-2022-01162025.csv",
     "format": "csv",
     "keywords": [
-      "medicaid",
-      "chip",
-      "service use",
-      "t-msis analytic files",
-      "well-child visits",
-      "epsdt"
+      "Medicaid",
+      "Children's Health Insurance Program (CHIP)",
+      "Well-Child Visits",
+      "T-MSIS Analytic Files (TAF)",
+      "Services",
+      "Early and Periodic Screening Diagnostic and Treatment (EPSDT)"
     ],
     "theme": [],
     "notes": "Well-child visit rates by state. Key pediatric preventive care quality measure.",
@@ -2989,7 +2949,7 @@
     "download_url": "https://download.medicaid.gov/data/nam-cahps-2014-public-use.dc57-m2ei.csv",
     "format": "csv",
     "keywords": [
-      "medicaid"
+      "Medicaid"
     ],
     "theme": [],
     "notes": "National Adult Medicaid CAHPS survey results (2014). Beneficiary-reported experience of care.",
@@ -3005,11 +2965,11 @@
     "download_url": "https://download.medicaid.gov/data/Acute-Care-Services-Provided-to-the-MedicaidCHIP-Population.csv",
     "format": "csv",
     "keywords": [
-      "acute care",
-      "dqatlas",
-      "t-msis analytic files",
-      "chip",
-      "medicaid"
+      "Acute Care",
+      "Children's Health Insurance Program (CHIP)",
+      "Medicaid",
+      "T-MSIS Analytic Files (TAF)",
+      "DQ (Data Quality) Atlas"
     ],
     "theme": [
       "Uncategorized"
@@ -3027,14 +2987,14 @@
     "download_url": "https://download.medicaid.gov/data/Behavioral-Health-Services-Provided-to-the-MedicaidCHIP-Population.csv",
     "format": "csv",
     "keywords": [
-      "DQ Atlas",
-      "substance use disorder",
-      "behavioral health",
-      "mental health disorder",
-      "service use",
-      "t-msis analytic files",
-      "chip",
-      "medicaid"
+      "Substance Use Disorder",
+      "Behavioral Health",
+      "Mental Health Disorder",
+      "Children's Health Insurance Program (CHIP)",
+      "Medicaid",
+      "T-MSIS Analytic Files (TAF)",
+      "DQ (Data Quality) Atlas",
+      "Services"
     ],
     "theme": [
       "Uncategorized"
@@ -3059,10 +3019,10 @@
     "download_url": "https://download.medicaid.gov/data/benf-recving-behav-health-serv-2017-2021.csv",
     "format": "csv",
     "keywords": [
-      "behavioral health care",
-      "integrated care",
-      "chip",
-      "medicaid"
+      "Behavioral Health Care",
+      "Integrated Care",
+      "Children's Health Insurance Program (CHIP)",
+      "Medicaid"
     ],
     "theme": [
       "Uncategorized"
@@ -3080,11 +3040,11 @@
     "download_url": "https://download.medicaid.gov/data/benf-recvin-phys-health-among-ben-recv-sud-2017-2021.csv",
     "format": "csv",
     "keywords": [
-      "substance use disorder physical health condition",
-      "behavioral health care",
-      "integrated care",
-      "chip",
-      "medicaid"
+      "Substance Use Disorder Physical Health Condition",
+      "Behavioral Health Care",
+      "Integrated Care",
+      "Children's Health Insurance Program (CHIP)",
+      "Medicaid"
     ],
     "theme": [
       "Uncategorized"
@@ -3102,12 +3062,12 @@
     "download_url": "https://download.medicaid.gov/data/benf-rcving-phy-hlth-amg-ben-rcvin-mntl-hlth-serv-2017-2021.csv",
     "format": "csv",
     "keywords": [
-      "mental health condition",
-      "physical health condition",
-      "behavioral health care",
-      "integrated care",
-      "chip",
-      "medicaid"
+      "Mental Health Condition",
+      "Physical Health Condition",
+      "Behavioral Health Care",
+      "Integrated Care",
+      "Children's Health Insurance Program (CHIP)",
+      "Medicaid"
     ],
     "theme": [
       "Uncategorized"
@@ -3129,10 +3089,10 @@
     "download_url": "https://download.medicaid.gov/data/benf-benft-frm-integr-care-2017-2021.csv",
     "format": "csv",
     "keywords": [
-      "behavioral health care",
-      "integrated care",
-      "chip",
-      "medicaid"
+      "Behavioral Health Care",
+      "Integrated Care",
+      "Children's Health Insurance Program (CHIP)",
+      "Medicaid"
     ],
     "theme": [
       "Uncategorized"
@@ -3150,14 +3110,14 @@
     "download_url": "https://download.medicaid.gov/data/Blood-Lead-Screening-Services-Provided-to-MedicaidCHIP-Beneficiaries-Ages-1-2-102025.csv",
     "format": "csv",
     "keywords": [
-      "DQ Atlas",
-      "substance use disorder",
-      "behavioral health",
-      "mental health disorder",
-      "service use",
-      "t-msis analytic files",
-      "chip",
-      "medicaid"
+      "Substance Use Disorder",
+      "Behavioral Health",
+      "Mental Health Disorder",
+      "Children's Health Insurance Program (CHIP)",
+      "Medicaid",
+      "T-MSIS Analytic Files (TAF)",
+      "DQ (Data Quality) Atlas",
+      "Services"
     ],
     "theme": [
       "Uncategorized"
@@ -3175,11 +3135,11 @@
     "download_url": "https://download.medicaid.gov/data/COVID-Testing-and-Testing-Related-Services-Provided-to-MedicaidCHIP-Beneficiaries.csv",
     "format": "csv",
     "keywords": [
-      "covid-19",
-      "DQ Atlas",
-      "t-msis analytic files",
-      "chip",
-      "medicaid"
+      "COVID-19",
+      "Children's Health Insurance Program (CHIP)",
+      "Medicaid",
+      "T-MSIS Analytic Files (TAF)",
+      "DQ (Data Quality) Atlas"
     ],
     "theme": [
       "Uncategorized"
@@ -3197,10 +3157,10 @@
     "download_url": "https://download.medicaid.gov/data/Contraceptive-Care-Services-Provided-to-MedicaidCHIP-Beneficiaries-ages-15-to-44.csv",
     "format": "csv",
     "keywords": [
-      "contraceptives",
-      "DQ Atlas",
-      "chip",
-      "medicaid"
+      "Contraceptives",
+      "Children's Health Insurance Program (CHIP)",
+      "Medicaid",
+      "DQ (Data Quality) Atlas"
     ],
     "theme": [
       "Uncategorized"
@@ -3218,12 +3178,12 @@
     "download_url": "https://download.medicaid.gov/data/Dental-Services-Provided-to-MedicaidCHIP-Beneficiaries-Under-Age-19.csv",
     "format": "csv",
     "keywords": [
-      "dental",
-      "service use",
-      "t-msis analytic files",
-      "DQ Atlas",
-      "chip",
-      "medicaid"
+      "Dental",
+      "Children's Health Insurance Program (CHIP)",
+      "Medicaid",
+      "T-MSIS Analytic Files (TAF)",
+      "DQ (Data Quality) Atlas",
+      "Services"
     ],
     "theme": [
       "Uncategorized"
@@ -3241,12 +3201,12 @@
     "download_url": "https://download.medicaid.gov/data/Health-Screenings-Provided-to-MedicaidCHIP-Beneficiaries-Under-Age-19.csv",
     "format": "csv",
     "keywords": [
-      "screening",
-      "service use",
-      "t-msis analytic files",
-      "DQ Atlas",
-      "chip",
-      "medicaid"
+      "Screening",
+      "Children's Health Insurance Program (CHIP)",
+      "Medicaid",
+      "T-MSIS Analytic Files (TAF)",
+      "DQ (Data Quality) Atlas",
+      "Services"
     ],
     "theme": [
       "Uncategorized"
@@ -3257,20 +3217,20 @@
   {
     "title": "Medicaid and CHIP enrollees who received mental health or SUD services",
     "identifier": "8062e2f4-4c0a-41c9-8217-979468a80986",
-    "description": "This data set includes annual counts and percentages of Medicaid and Children\u2019s Health Insurance Program (CHIP) enrollees who received mental health (MH) or substance use disorder (SUD) services, overall and by six subpopulation topics: age group, sex or gender identity, race and ethnicity, urban or rural residence, eligibility category, and primary language.\r\nThese results were generated using Transformed Medicaid Statistical Information System (T-MSIS) Analytic Files (TAF) Release 1 data and the Race/Ethnicity Imputation Companion File. This data set includes Medicaid and CHIP enrollees in all 50 states, the District of Columbia, Puerto Rico, and the U.S. Virgin Islands, ages 12 to 64 at the end of the calendar year, who were not dually eligible for Medicare and were continuously enrolled with comprehensive benefits for 12 months, with no more than one gap in enrollment exceeding 45 days. Enrollees who received services for both an MH condition and SUD in the year are counted toward both condition categories. Enrollees in Guam, American Samoa, the Northern Mariana Islands, and select states with TAF data quality issues are not included. Results shown for the race and ethnicity subpopulation topic exclude enrollees in the U.S. Virgin Islands. Results shown for the primary language subpopulation topic exclude select states with data quality issues with the primary language variable in TAF. Some rows in the data set have a value of \"DS,\" which indicates that data were suppressed according to the Centers for Medicare & Medicaid Services\u2019 Cell Suppression Policy for values between 1 and 10.\r\nThis data set is based on the brief: \"Medicaid and CHIP enrollees who received mental health or SUD services in 2020.\" Enrollees are assigned to an age group subpopulation using age as of December 31st of the calendar year. Enrollees are assigned to a sex or gender identity subpopulation using their latest reported sex in the calendar year. Enrollees are assigned to a race and ethnicity subpopulation using the state-reported race and ethnicity information in TAF when it is available and of good quality; if it is missing or unreliable, race and ethnicity is indirectly estimated using an enhanced version of Bayesian Improved Surname Geocoding (BISG) (Race and ethnicity of the national Medicaid and CHIP population in 2020). Enrollees are assigned to an urban or rural subpopulation based on the 2010 Rural-Urban Commuting Area (RUCA) code associated with their home or mailing address ZIP code in TAF (Rural Medicaid and CHIP enrollees in 2020). Enrollees are assigned to an eligibility category subpopulation using their latest reported eligibility group code, CHIP code, and age in the calendar year. Enrollees are assigned to a primary language subpopulation based on their reported ISO language code in TAF (English/missing, Spanish, and all other language codes) (Primary Language). Please refer to the full brief for additional context about the methodology and detailed findings. Future updates to this data set will include more recent data years as the TAF data become available.",
+    "description": "This data set includes annual counts and percentages of Medicaid and Children\u2019s Health Insurance Program (CHIP) enrollees who received mental health (MH) or substance use disorder (SUD) services, overall and by six subpopulation topics: age group, sex or gender identity, race and ethnicity, urban or rural residence, eligibility category, and primary language.\nThese results were generated using Transformed Medicaid Statistical Information System (T-MSIS) Analytic Files (TAF) Release 1 data and the Race/Ethnicity Imputation Companion File. This data set includes Medicaid and CHIP enrollees in all 50 states, the District of Columbia, Puerto Rico, and the U.S. Virgin Islands, ages 12 to 64 at the end of the calendar year, who were not dually eligible for Medicare and were continuously enrolled with comprehensive benefits for 12 months, with no more than one gap in enrollment exceeding 45 days. Enrollees who received services for both an MH condition and SUD in the year are counted toward both condition categories. Enrollees in Guam, American Samoa, the Northern Mariana Islands, and select states with TAF data quality issues are not included. Results shown for the race and ethnicity subpopulation topic exclude enrollees in the U.S. Virgin Islands. Results shown for the primary language subpopulation topic exclude select states with data quality issues with the primary language variable in TAF. Some rows in the data set have a value of \"DS,\" which indicates that data were suppressed according to the Centers for Medicare &amp; Medicaid Services\u2019 Cell Suppression Policy for values between 1 and 10.\nThis data set is based on the brief: \"Medicaid and CHIP enrollees who received mental health or SUD services in 2020.\" Enrollees are assigned to an age group subpopulation using age as of December 31st of the calendar year. Enrollees are assigned to a sex or gender identity subpopulation using their latest reported sex in the calendar year. Enrollees are assigned to a race and ethnicity subpopulation using the state-reported race and ethnicity information in TAF when it is available and of good quality; if it is missing or unreliable, race and ethnicity is indirectly estimated using an enhanced version of Bayesian Improved Surname Geocoding (BISG) (Race and ethnicity of the national Medicaid and CHIP population in 2020). Enrollees are assigned to an urban or rural subpopulation based on the 2010 Rural-Urban Commuting Area (RUCA) code associated with their home or mailing address ZIP code in TAF (Rural Medicaid and CHIP enrollees in 2020). Enrollees are assigned to an eligibility category subpopulation using their latest reported eligibility group code, CHIP code, and age in the calendar year. Enrollees are assigned to a primary language subpopulation based on their reported ISO language code in TAF (English/missing, Spanish, and all other language codes) (Primary Language). Please refer to the full brief for additional context about the methodology and detailed findings. Future updates to this data set will include more recent data years as the TAF data become available.",
     "category": "Service Utilization",
     "cadence": "Unknown",
     "modified": "2025-01-17T04:48:55+00:00",
     "download_url": "https://download.medicaid.gov/data/mh-and-sud-services-2020-2022-01162025.csv",
     "format": "csv",
     "keywords": [
-      "medicaid",
-      "chip",
-      "mental health condition",
-      "service use",
-      "t-msis analytic files",
-      "behavioral health",
-      "substance use disorder"
+      "Medicaid",
+      "Children's Health Insurance Program (CHIP)",
+      "Mental Health Condition",
+      "Behavioral Health",
+      "Substance Use Disorder",
+      "T-MSIS Analytic Files (TAF)",
+      "Services"
     ],
     "theme": [],
     "notes": "High-level counts of BH service recipients by state. Simpler than the condition-level breakouts.",
@@ -3290,11 +3250,11 @@
     "download_url": "https://download.medicaid.gov/data/Respiratory-Conditions-in-the-MedicaidCHIP-Population10202025.csv",
     "format": "csv",
     "keywords": [
-      "covid-19",
-      "t-msis analytic files",
-      "DQ Atlas",
-      "chip",
-      "medicaid"
+      "COVID-19",
+      "Children's Health Insurance Program (CHIP)",
+      "Medicaid",
+      "T-MSIS Analytic Files (TAF)",
+      "DQ (Data Quality) Atlas"
     ],
     "theme": [
       "Uncategorized"
@@ -3312,12 +3272,12 @@
     "download_url": "https://download.medicaid.gov/data/Telehealth-Services-Provided-to-the-MedicaidCHIP-Population.csv",
     "format": "csv",
     "keywords": [
-      "telehealth",
-      "service use",
-      "t-msis analytic files",
-      "DQ Atlas",
-      "chip",
-      "medicaid"
+      "Telehealth",
+      "Children's Health Insurance Program (CHIP)",
+      "Medicaid",
+      "T-MSIS Analytic Files (TAF)",
+      "DQ (Data Quality) Atlas",
+      "Services"
     ],
     "theme": [
       "Uncategorized"
@@ -3335,12 +3295,12 @@
     "download_url": "https://download.medicaid.gov/data/Vaccinations-Provided-to-the-MedicaidCHIP-Population-under-age-19.csv",
     "format": "csv",
     "keywords": [
-      "vaccination",
-      "service use",
-      "t-msis analytic files",
-      "DQ Atlas",
-      "chip",
-      "medicaid"
+      "Vaccination",
+      "Children's Health Insurance Program (CHIP)",
+      "Medicaid",
+      "T-MSIS Analytic Files (TAF)",
+      "DQ (Data Quality) Atlas",
+      "Services"
     ],
     "theme": [
       "Uncategorized"
@@ -3358,8 +3318,8 @@
     "download_url": "https://download.medicaid.gov/data/healthcare.gov-data-july-2024-release.csv",
     "format": "csv",
     "keywords": [
-      "marketplace",
-      "transitions in coverage"
+      "Marketplace",
+      "Coverage Transitions"
     ],
     "theme": [
       "Unwinding"
@@ -3384,8 +3344,8 @@
     "download_url": "https://download.medicaid.gov/data/healthcare.gov-transitions-data-december-2024-release.csv",
     "format": "csv",
     "keywords": [
-      "marketplace",
-      "transitions in coverage"
+      "Marketplace",
+      "Coverage Transitions"
     ],
     "theme": [
       "Unwinding"
@@ -3403,16 +3363,16 @@
     "download_url": "https://download.medicaid.gov/data/medicaid-chip-caa-reporting-metrics-long-table-october-2024-release.csv",
     "format": "csv",
     "keywords": [
-      "program enrollment",
-      "child enrollment",
-      "eligibility determinations",
-      "applications",
-      "chip",
-      "enrollment",
-      "medicaid"
+      "Program Enrollment",
+      "Child Enrollment",
+      "Eligibility Determinations",
+      "Applications",
+      "Children's Health Insurance Program (CHIP)",
+      "Medicaid"
     ],
     "theme": [
-      "Unwinding"
+      "Unwinding",
+      "Enrollment"
     ],
     "notes": "State-reported metrics on renewal processing during the unwinding period. Covers renewals initiated, completed, and outcomes.",
     "relationships": []
@@ -3427,16 +3387,16 @@
     "download_url": "https://download.medicaid.gov/data/updated-renewal-outcomes-october-2024-releasefinal.csv",
     "format": "csv",
     "keywords": [
-      "program enrollment",
-      "child enrollment",
-      "eligibility determinations",
-      "applications",
-      "chip",
-      "enrollment",
-      "medicaid"
+      "Program Enrollment",
+      "Child Enrollment",
+      "Eligibility Determinations",
+      "Applications",
+      "Children's Health Insurance Program (CHIP)",
+      "Medicaid"
     ],
     "theme": [
-      "Unwinding"
+      "Unwinding",
+      "Enrollment"
     ],
     "notes": "Updated renewal outcome data showing procedural vs. eligibility-based disenrollment during unwinding.",
     "relationships": [
@@ -3464,8 +3424,8 @@
     "download_url": "https://download.medicaid.gov/data/sbm-marketplace-december-2024-release.csv",
     "format": "csv",
     "keywords": [
-      "marketplace",
-      "transitions in coverage"
+      "Marketplace",
+      "Coverage Transitions"
     ],
     "theme": [
       "Unwinding"
